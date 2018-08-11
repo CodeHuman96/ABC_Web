@@ -6,6 +6,7 @@
 <head>
 <title> Cheque Book Request </title>
 <link rel="stylesheet" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" href="../CustomerOne/FormStyle.css">
 <script>
 function warn(){
 if ( document.getElementsByName('status')[0].value == "rejected" && document.getElementById('responsearea').value=="")
@@ -25,10 +26,10 @@ return confirm('Form has been successfully submitted');
 
 <form  onsubmit="warn() ">
 <fieldset>
-<div class="introduction"><h1 >Cheque Book Request </h1></div>
+<div class="introduction" ><h1 >Cheque Book Request </h1></div>
 <br>
 
-
+<div class="container">
 Account number:
 <input type="text" name="accountnumber">
 <br></br>
@@ -72,6 +73,7 @@ Response Area:
 <!--<button type="button" onclick="warn()">  Submit</button>-->
 <input type="reset">
 <button type="button" onclick="location.href=''">Back </button>
+</div>
 </fieldset>
 </form>
 
