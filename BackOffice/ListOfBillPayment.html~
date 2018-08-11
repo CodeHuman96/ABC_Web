@@ -28,7 +28,7 @@ return alert('Action has been performed!');
 <br><br><br>
 
 <div class="tabular">
-<table id="table" >
+<table id="table" width=100% >
 
  <tr>
 

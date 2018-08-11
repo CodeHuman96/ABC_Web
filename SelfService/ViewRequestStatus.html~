@@ -13,7 +13,7 @@
 			<h1>View Request Status</h1>
 		</div>
 		<div class="container">
-			<form >
+			<form>
 				<label>Name:xxxxxxxxx</label>
 				<br><br>
 				<label>Request Type:</label>
