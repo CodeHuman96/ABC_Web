@@ -2,6 +2,13 @@
 <html>
 
 <head>
+<<<<<<< HEAD
+=======
+
+<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
+
+>>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 <script>
 function tableDisplay() {
 
@@ -37,25 +44,44 @@ table, th, td {
 
 <body>
 <h1>Monitor Campaign Effectiveness</h1>
+<<<<<<< HEAD
+=======
+<form class="container">
+>>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 Campaign:
 <select name="campaign" id="camp">
 <option value="C1">C1</option>
 <option value="C2">C2</option>
 <option value="C3">C3</option>
 </select>
+<<<<<<< HEAD
+=======
+</form>
+>>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 <button onclick="tableDisplay()">Search</button>
 
 
 <br><br><br>
+<<<<<<< HEAD
+=======
+<form class="container">
+>>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 <span>Total Prospects:</span>
 <span>3</span>
 <br><br>
 <span>Unassigned Prospects:</span>
 <span>0</span>
+<<<<<<< HEAD
 
 <br><br><br>
 
 <table id="0">
+=======
+</form>
+<br><br><br>
+
+<table class="tabular" id="0">
+>>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 
 <tr>
 <th>Sales Agent</th>
@@ -87,7 +113,11 @@ Campaign:
 
 </table>
 
+<<<<<<< HEAD
 <table id="1">
+=======
+<table class="tabular" id="1">
+>>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 
 <tr>
 <th>Sales Agent</th>
@@ -120,7 +150,11 @@ Campaign:
 </table>
 
 
+<<<<<<< HEAD
 <table id="2">
+=======
+<table class="tabular" id="2">
+>>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 
 <tr>
 <th>Sales Agent</th>
@@ -153,6 +187,10 @@ Campaign:
 </table>
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 </body>
 
 </html>

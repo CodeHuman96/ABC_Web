@@ -3,95 +3,37 @@
 <body>
 <head>
 <script src="bill.js" type="text/javascript"> </script>
+<script>
+document.getElementById(1).style.display="none";
+document.getElementById(2).style.display="none";
+document.getElementById(3).style.display="none";
+document.getElementById(4).style.display="none";
+document.getElementById(5).style.display="none";
+document.getElementById(6).style.display="none";
+</script>
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/FormStyle.css">
 </head>
 <style>
-h3{
-text-align:center;
-margin-left:375px;
-color:white;
-}
-ol {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-}
-
-ol li {
-    float: left;
-}
-
-ol li a {
-    display: block;
+input[type=reset],input[type=button] {
+    background-color: #4CAF50;
     color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111111;
-}
-form{
-    margin-left:50px;
-}
-input[type=text],input[type=number],select{
-    width: 50%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
+    padding: 12px 20px;
     border: none;
-    background: #f1f1f1;
-}
-input[type=date]{
-    width: 25%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
+    border-radius: 4px;
+    cursor: pointer;
     margin-left:10px;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-}
-input[type=submit]{
-   background-color: black;
-   color:white;
-   margin-left:0px;
-   text-align: center;
-   padding: 8px 24px;
-}
-input[type=reset],input[type=button]{
-   background-color: black;
-   color:white;
-   margin-left:50px;
-   text-align: center;
-   padding: 8px 24px;
-}
-input[type=radio]{
-   margin-left:50px;
-}
-table{
-    width:100%;
-    text-align:center;
-    display:none;
-    border-collapse: collapse;
-}
-table, th, td {
-    border: 1px solid black;  
-    border-collapse: collapse;
 }
 </style>
-<ol>
+<div class="introduction">
   <li><h3>View Payment History</h3></li>
-</ol>
-<br><br>
-
+</div>
+<div class="container">
 <form >
   Category <br>
   <select id="catid" name="cat">
     <option value="1">public</option>
     <option value="2">Electricity</option>
-    <option value="3">Telephone</option>
   </select>
   <br><br>
 
@@ -115,10 +57,10 @@ table, th, td {
   <input type="button" onclick="back()" value="Back">
   <br><br><br><br>
 </form> 
-<!--
-<button onclick="table()">Submit</button>-->
-<table id="1">
 
+<!--<button onclick="table()">Submit</button>-->
+
+<table class="tabular" id="1" style="width:100%" style="display:none">
 <tr>
 <th>Date</th>
 <th>AC No</th>
@@ -129,25 +71,170 @@ table, th, td {
 </tr>
 
 <tr>
-<th>22/04/2017</th>
-<th>20255169194</th>
-<th>Saranya</th>
-<th>2500</th>
-<th>public</th>
-<th>pending</th>
+<td>22/04/2017</td>
+<td>20255169194</td>
+<td>Saranya</td>
+<td>2500</td>
+<td>public</td>
+<td>pending</td>
 </tr>
 
 <tr>
-<th>30/11/2017</th>
+<td>30/11/2017</td>
+<td>AC No</td>
+<td>Biller</td>
+<td>Amount</td>
+<td>public</td>
+<td>pending</td>
+</tr>
+</table>
+<table class="tabular" id="2" style="width:100%">
+<tr>
+<th>Date</th>
 <th>AC No</th>
 <th>Biller</th>
 <th>Amount</th>
-<th>public</th>
-<th>pending</th>
+<th>Category</th>
+<th>Status</th>
 </tr>
 
+<tr>
+<td>22/04/2017</td>
+<td>20255169194</td>
+<td>Saranya</td>
+<td>2500</td>
+<td>public</td>
+<td>paid</td>
+</tr>
+
+<tr>
+<td>30/11/2017</td>
+<td>AC No</td>
+<td>Biller</td>
+<td>Amount</td>
+<td>public</td>
+<td>paid</td>
+</tr>
+</table>
+
+<table class="tabular" id="3" style="width:100%">
+<tr>
+<th>Date</th>
+<th>AC No</th>
+<th>Biller</th>
+<th>Amount</th>
+<th>Category</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>22/04/2017</td>
+<td>20255169194</td>
+<td>Saranya</td>
+<td>2500</td>
+<td>public</td>
+<td>rejected</td>
+</tr>
+
+<tr>
+<td>30/11/2017</td>
+<td>AC No</td>
+<td>Biller</td>
+<td>Amount</td>
+<td>public</td>
+<td>rejected</td>
+</tr>
+</table>
+
+<table class="tabular" id="4" style="width:100%">
+<tr>
+<th>Date</th>
+<th>AC No</th>
+<th>Biller</th>
+<th>Amount</th>
+<th>Category</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>22/04/2017</td>
+<td>20255169194</td>
+<td>Saranya</td>
+<td>2500</td>
+<td>Electricity</td>
+<td>pending</td>
+</tr>
+
+<tr>
+<td>30/11/2017</td>
+<td>AC No</td>
+<td>Biller</td>
+<td>Amount</td>
+<td>Electricity</td>
+<td>pending</td>
+</tr>
 </table>
 
 
+<table class="tabular" id="5" style="width:100%">
+<tr>
+<th>Date</th>
+<th>AC No</th>
+<th>Biller</th>
+<th>Amount</th>
+<th>Category</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>22/04/2017</td>
+<td>20255169194</td>
+<td>Saranya</td>
+<td>2500</td>
+<td>Electricity</td>
+<td>paid</td>
+</tr>
+
+<tr>
+<td>30/11/2017</td>
+<td>AC No</td>
+<td>Biller</td>
+<td>Amount</td>
+<td>Electricity</td>
+<td>paid</td>
+</tr>
+</table>
+
+
+<table class="tabular" id="6" style="width:100%">
+<tr>
+<th>Date</th>
+<th>AC No</th>
+<th>Biller</th>
+<th>Amount</th>
+<th>Category</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>22/04/2017</td>
+<td>20255169194</td>
+<td>Saranya</td>
+<td>2500</td>
+<td>Electricity</td>
+<td>rejected</td>
+</tr>
+
+<tr>
+<td>30/11/2017</td>
+<td>AC No</td>
+<td>Biller</td>
+<td>Amount</td>
+<td>Electricity</td>
+<td>rejected</td>
+</tr>
+</table>
+
+</div>
 </body>
 </html>

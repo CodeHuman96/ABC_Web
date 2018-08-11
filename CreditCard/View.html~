@@ -67,7 +67,7 @@ table,tr,td,th
 				<td>&ensp;CSR_6&ensp;</td>
 				<td>&ensp;Redeem&ensp;</td>
 				<td>&ensp;Processed&ensp;</td>
-				<td>&ensp;Success&ensp;</td>
+				<td>&ensp;Failed&ensp;</td>
 		
 			</tr>
 

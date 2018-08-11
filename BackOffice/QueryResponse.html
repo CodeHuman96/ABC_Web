@@ -5,6 +5,7 @@
 
 <head>
 <link rel="stylesheet" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" href="../CustomerOne/FormStyle.css">
 <script>
 function warn(){
 if ( document.getElementsByName('status')[0].value == "rejected" && document.getElementById('responsearea').value=="")
@@ -25,7 +26,9 @@ return confirm('Form has been successfully submitted');
 <form  onsubmit="warn() ">
 <fieldset>
 <div class="introduction"><h1>Query Response </h1></div>
+
 <br><br>
+<div class="container">
 
 
 Customer Name:
@@ -67,6 +70,7 @@ Response :
 <!--<button type="button" onclick="warn()">  Submit</button>-->
 <input type="reset">
 <button type="button" onclick="location.href=''">Back </button>
+</div>
 </fieldset>
 </form>
 

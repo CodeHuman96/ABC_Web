@@ -7,41 +7,93 @@ table, th, td {
     border: 1px solid black;
      border-collapse: collapse;
 }
-.wrapper {
-  text-align: center;
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-
+ 
 </style>
 
 <script>
 	function fun1()
 	{
 
-		alert(document.getElementById("q1").value);
-		var qty=document.getElementById("q1").value;
-		var req=document.getElementById("r1");
-		var prod=Number(qty)*Number(req);
-
-		alert(qty);
-
-		var avail=document.getElementById("Availpts").value;
-		if(prod<Number(avail))
-		{
-			document.getElementById("res").innerHTML="Success";
-		}
-		else
-			document.getElementById("res").innerHTML="Failed";
-
-		/*var row=document.getElementById("row1").value
-		var Cells = row.getElementsByTagName("td");
-		alert(Cells[0].innerText);*/
+		 
 		
+		var tbl=document.getElementById("addTable");
+		 
+		var j=1;
+		var qty,req;
+		 
+		 
+			 
+			  qty=document.getElementById("q1").value;
+			  req=tbl.rows[1].cells[j].innerHTML;
+			  var prod=Number(qty)*Number(req);
+		 
+
+			var avail=document.getElementById("Availpts").value;
+			 
+			if(prod<Number(avail))
+			{
+				 
+				tbl.rows[1].cells[3].innerHTML=prod;
+			}
+			else
+				tbl.rows[1].cells[3].innerHTML="Limit Exceeded";
+			
+			  
+		 
+		
+
+	 
 		
 	}
+	function fun2()
+	{
+
+		 
+		
+		var tbl=document.getElementById("addTable");
+		 
+		var j=1;
+		var qty,req;
+		 
+		 
+			 
+			  qty=document.getElementById("q2").value;
+			  req=tbl.rows[2].cells[j].innerHTML;
+			  var prod=Number(qty)*Number(req);
+		 
+
+			var avail=document.getElementById("Availpts").value;
+			 
+			if(prod<Number(avail))
+			{
+				 
+				tbl.rows[2].cells[3].innerHTML=prod;
+			}
+			else
+				tbl.rows[2].cells[3].innerHTML="Limit Exceeded";
+			
+			  
+				
+			 var total= Number(tbl.rows[1].cells[3].innerHTML)+Number(tbl.rows[2].cells[3].innerHTML)
+			document.getElementById("tot").value=total; 
+
+			if(total<=avail)
+				document.getElementById("res").innerHTML="Redeemed Successfully";
+			else
+				document.getElementById("res").innerHTML="OOPS! Redemption Failed";
+		 
+		 
+		
+		 
+		 
+		
+
+	 
+		
+	}
+	 
+	 	
+	 
 	function sub()
 	{
 		document.getElementById("res").innerHTML="Submitted Successfully";
@@ -63,7 +115,7 @@ table, th, td {
 
 			<br><br><br>
 
-			<table>
+			<table id="addTable">
 			<tr>
 				<th>&ensp;Product Description&ensp;</th>
 				<th>&ensp;Points Needed&ensp;</th>
@@ -73,10 +125,20 @@ table, th, td {
 			<tr id="row1">
 				<td>&ensp;Mobile&ensp;</td>
 				<td id="r1">&ensp;1500&ensp;</td>
-				<td id="q1"contenteditable='true'>&ensp;&ensp;</td>
+				<!--<td id="q1"contenteditable='true'>&ensp;&ensp;</td>-->
+				<td ><form><input  type='text' id="q1"></form></td>
 				<td id="f1" onclick="fun1()">&ensp;&ensp;</td>
 		
 			</tr>
+			<tr id="row2">
+				<td>&ensp;Pendrive&ensp;</td>
+				<td id="r2">&ensp;300&ensp;</td>
+				<!--<td id="q1"contenteditable='true'>&ensp;&ensp;</td>-->
+				<td ><form><input  type='text' id="q2"></form></td>
+				<td id="f2" onclick="fun2()">&ensp;&ensp;</td>
+		
+			</tr>
+			 
 			 
 
 
@@ -84,13 +146,17 @@ table, th, td {
 		</table>
 
 		</div>
+		<br>
+			<form style='margin-left:15cm'>Total Points Redeemed :<input type='text'   id='tot'   ></form>			
+				
+		<br>
 
-		<p id="res">Result Here</p>
+		<p id="res" align='center' style='color:green'> </p>
 		
-		<div  class="wrapper" align='center'>
+		<div   align='center'>
 
-			 <button onclick="sub()">Submit</button> 
-		 	<form action="List.html"><button>Back</button></form> 
+			
+		  <button onclick="sub()">Submit</button>  <button onclick="window.open('List.html','_self')">Back</button> 
 			
 		
 		</div>	

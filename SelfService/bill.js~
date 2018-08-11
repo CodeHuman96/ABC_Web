@@ -44,13 +44,12 @@ if(c==2 && s==2)
 	id=5;
 if(c==2 && s==3)
 	id=6;
-if(c==3 && s==1)
-	id=7;
-if(c==3 && s==2)
-	id=8;
-if(c==3 && s==3)
-	id=9;
-
+document.getElementById(1).style.display="none";
+document.getElementById(2).style.display="none";
+document.getElementById(3).style.display="none";
+document.getElementById(4).style.display="none";
+document.getElementById(5).style.display="none";
+document.getElementById(6).style.display="none";
 document.getElementById(id).style.display="table";
 }
 /*

@@ -2,7 +2,9 @@
 <html>
 <body>
 <head>
-<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOnePageStyling.css">
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/FormStyle.css">
+</head>
 <style>
 h1{
 text-align:center;
@@ -20,11 +22,10 @@ a:hover {
 }
 
 </style>
-</head>
-<h1>
-	Welcome to Online BillPayment System
-</h1>
-<a href="/home/test/ABC_Web/SelfService/login.html"> Click here to login </a>
+	<div class="introduction">
+		<h2>Welcome to Online BillPayment System</h2>
+	</div>
+<a href="/home/test/html/login.html"> Click here to login </a>
 
 </body>
 </html>

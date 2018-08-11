@@ -2,6 +2,10 @@
 <html>
 
 <head>
+
+<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
+
 <script>
 function tableDisplay() {
 
@@ -37,25 +41,29 @@ table, th, td {
 
 <body>
 <h1>Monitor Campaign Effectiveness</h1>
+<form class="container">
 Campaign:
 <select name="campaign" id="camp">
 <option value="C1">C1</option>
 <option value="C2">C2</option>
 <option value="C3">C3</option>
 </select>
+</form>
 <button onclick="tableDisplay()">Search</button>
 
 
 <br><br><br>
+<br><br><br>
+<form class="container">
 <span>Total Prospects:</span>
 <span>3</span>
 <br><br>
 <span>Unassigned Prospects:</span>
 <span>0</span>
-
+</form>
 <br><br><br>
 
-<table id="0">
+<table class="tabular" id="0">
 
 <tr>
 <th>Sales Agent</th>
@@ -87,7 +95,7 @@ Campaign:
 
 </table>
 
-<table id="1">
+<table class="tabular" id="1">
 
 <tr>
 <th>Sales Agent</th>
@@ -120,7 +128,7 @@ Campaign:
 </table>
 
 
-<table id="2">
+<table class="tabular" id="2">
 
 <tr>
 <th>Sales Agent</th>
@@ -151,6 +159,7 @@ Campaign:
 </tr>
 
 </table>
+
 
 
 </body>

@@ -26,7 +26,7 @@ input[type=reset],input[type=button] {
   BillerName <br>
   <input type="text" pattern="[a-zA-Z .'-]+" placeholder="Enter name(only alphabets)" name="bname" required><br><br>
   Address <br>
-  <input type="text" placeholder="Enter address" name="add" required><br><br>
+  <input type="textarea" placeholder="Enter address" name="add" required><br><br>
   City <br>
   <input type="text" placeholder="Enter city" name="city" required><br><br>
   Pin Code <br>
