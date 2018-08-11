@@ -3,26 +3,29 @@
 <head>
 <link rel="stylesheet" type="text/css" href="login.css">
 <title>CustomerLogin</title>
+<script src="login.js" type="text/javascript"></script>
 </head>
 <body>
 
 <h1>Welcome to Customer Self Service System</h1>
 <div>
-<form >
+<form id="container" >
 	
   <label class="ustxt" >User Name:   </label>
-  <input  type="text" name="firstname" value="">
+  <input  type="text" id="username" required>
   <br><br>
   <label class="pastxt" >Password:</label>
-  <input type="password" name="password" value="">
+  <input type="password" id="password" required>
+  <br><br>
+  
   <br><br>
 </form> 
 
 </div>
 <div class="last">
-<button id="Submit">Submit</button>
+<button id="Submit" type="button" onclick="submit()">Submit</button>
 &emsp;&emsp;
-<button id="Clear">Clear</button>
+<button id="Clear" type="button" onclick="res()">Clear</button>
 </div>
 </body>
 </html>
