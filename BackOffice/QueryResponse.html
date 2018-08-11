@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 
@@ -23,17 +23,24 @@ return confirm('Form has been successfully submitted');
 
 <form  onsubmit="warn() ">
 <fieldset>
-<h1 style="text-align:center;">Lost or Stolen Card </h1>
+<h1 style="text-align:center;">Query Response </h1>
 
 
-Card number:
-<input type="text" name="cardnumber">
+Customer Name:
+<input type="text" name="customername">
 <br></br>
 
 
-Card type:   
-<input type="text" name="cardtype">
+Query received on:   
+<input type="text" name="querydate">
 <br></br>
+
+Query:
+<br></br>
+<textarea rows="4" cols="50" align="right" id="query">
+</textarea>
+<br></br>
+
 
 
 <span style="color:red">*</span>Status:
@@ -47,7 +54,7 @@ Card type:
 
 
 
-Response Area:
+Response :
 <br></br>
 <textarea rows="4" cols="50" align="right" id="responsearea">
 </textarea>

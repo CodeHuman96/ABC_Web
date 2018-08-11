@@ -23,18 +23,29 @@ return confirm('Form has been successfully submitted');
 
 <form  onsubmit="warn() ">
 <fieldset>
-<h1 style="text-align:center;">Lost or Stolen Card </h1>
+<h1 style="text-align:center;">Cheque Book Request </h1>
 
 
-Card number:
-<input type="text" name="cardnumber">
+Account number:
+<input type="text" name="accountnumber">
 <br></br>
 
 
-Card type:   
-<input type="text" name="cardtype">
+Account type:   
+<input type="text" name="accounttype">
 <br></br>
 
+Customer Name:   
+<input type="text" name="customername">
+<br></br>
+
+Request Date:   
+<input type="text" name="requestdate">
+<br></br>
+
+Number of Leaves:   
+<input type="text" name="numberofleaves">
+<br></br>
 
 <span style="color:red">*</span>Status:
 <select name="status">
@@ -57,7 +68,7 @@ Response Area:
 <input  type="submit" value="Submit"> 
 <!--<button type="button" onclick="warn()">  Submit</button>-->
 <input type="reset">
-<button type="button" onclick="location.href=''">Back </button>
+<input type="button" onclick="location.href=''">Back </button>
 </fieldset>
 </form>
 
