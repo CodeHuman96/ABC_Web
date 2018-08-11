@@ -12,7 +12,7 @@
 <div class="introduction">
 <h1>Report Lost/Stolen Debit Card</h1>
 </div>
-<div>
+<div class="container">
 <form onsubmit="success()">
 	<label>Name:</label>
 	<label>xxxxxxx</label>

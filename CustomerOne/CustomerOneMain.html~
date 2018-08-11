@@ -30,11 +30,11 @@ function goToPage(url) {
 			</h3>
 		</div>
 	</div>
-	<div class="info">
+	<!--div class="info">
 		<div id="hiddenText"><p>This screen is used to de-duplicate customer data from account records.We need to identify the accounts belonging to the same customer based on name,
 address, date of birth and PAN number. Such accounts are to be marked for de-duplication to create customer records with customer ID.</p></div>
 		<div class="info2"></div>
 		<div class="info3"></div>
-	</div>
+	</div-->
 </body>
 </html>
