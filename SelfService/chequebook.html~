@@ -8,7 +8,7 @@
 <div class="introduction">
 <h1>Cheque Book Request</h1>
 </div>
-<div>
+<div class="container">
 <form onsubmit="success()">
 	<label>Name:xxxxxxxxx</label>
 	<br><br>
