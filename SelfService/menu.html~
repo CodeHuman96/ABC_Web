@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<head>
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/FormStyle.css">
+</head>
+
+<script>
+function goToPage(url) {
+    window.location.href = url;
+}
+</script>
+
+<style>
+ol {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ol li {
+    float: left;
+}
+
+ol li a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: -5px 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+</style>
+<ol>
+  <li><a href="/home/test/ABC_Web/SelfService/menu.html"><b>BillPayment Menu</b></a></li>
+
+  <li><a href="/home/test/ABC_Web/SelfService/index.html">Home</a></li>
+  <li><a href="/home/test/html/login.html">Log Off</a></li>
+</ol>
+
+<div class="Options">
+		<div class="Ch" onclick="goToPage('billerList.html')">
+			<h3 class="Manage Billers_title" title="Manage Billers">
+				Manage Billers
+			</h3>
+		</div>
+		<div class="Ch" onclick="goToPage('payment.html')">
+			<h3 class="Make Payment" title="Make Payment">
+				Make Payment
+			</h3>
+		</div>
+		<div class="Ch" onclick="goToPage('history.html')">
+			<h3 class="View Payment History" title="View Payment History" >
+				View Payment History
+			</h3>
+		</div>
+</div>
+
+
+</body>
+</html>

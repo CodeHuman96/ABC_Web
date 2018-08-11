@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="PageStyling.css">
+<link rel="stylesheet" href="FormStyle.css">
 <style>
  .a {
      border:none;
@@ -21,12 +23,14 @@ table,tr,td,th
 </script>
 
 <body>
+		<div class="introduction">
+			<h1 class="pageLabel">View Request Status</h1>
+		</div>
 	
-		 <u><span style='font-weight:bold;font-size:25px;margin-left:525px;float:center;'>View Request Status</span></u>
- 		<br><br><br><br><br><br><br><br> 
+		  
 		 
-
-	 	<table class="a" style='border:none;' align='center'>
+		<div class="container" style='color:black;'>
+	 	<table class="a" style='border:none;font-size:20px;' align='center'>
 		 <tr class="a">
 			<td class="a">&ensp;Name&ensp;</td>
 			<td class="a">&ensp;:&ensp;</td>
@@ -39,6 +43,7 @@ table,tr,td,th
 			<td class="a">&ensp;<button onclick="disp()">Submit</button>&ensp;</td>
 
 		</table>
+		
 		<br><br><br> 
 
 		 
@@ -46,7 +51,7 @@ table,tr,td,th
 
 		
 
-		<table id="tbl" align='center'  style="visibility:hidden" >
+		<table  class="tabular" id="tbl" align='center'  style="visibility:hidden" >
 			<tr>
 				 <th>&ensp;Request Date&ensp;</th>
 				<th>&ensp;Request Type&ensp;</th>
@@ -73,7 +78,7 @@ table,tr,td,th
 
 
 	
-		</table>
+		</table></div>
 		<br><br><br><br><br><br><br><br> 
 
 		 <form action="SelfServiceMenu.html" style='margin-left:600px;'><button>Back</button></form> 

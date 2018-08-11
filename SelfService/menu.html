@@ -1,36 +1,30 @@
 <!DOCTYPE html>
 <html>
 <body>
-<style>
-h1{
-text-align:center;
-}
-ul {
-    
-    list-style-type: none;
-    margin-left: 350px;
-    padding: 0px;
-    width: 250px;
-    background-color: #f1f1f1;
-}
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
 
-li a:hover {
-    background-color: #555;
-    color: white;
+<head>
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/FormStyle.css">
+</head>
+
+<script>
+function goToPage(url) {
+    window.location.href = url;
 }
-/* /////////////////////////////////////////////////////////////////////////// */
+</script>
+
+<style>
 ol {
-    list-style-type: none;
-    margin: 0px;
+list-style-type: none;
+    margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #333;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: -5px 12px;
+    text-decoration: none;
 }
 
 ol li {
@@ -38,7 +32,7 @@ ol li {
 }
 
 ol li a {
-    display: block;
+    display: block;    
     color: white;
     text-align: center;
     padding: 16px;
@@ -49,19 +43,31 @@ li a:hover {
     background-color: #111111;
 }
 </style>
-
 <ol>
-  <li><a href="/home/test/html/menu.html">BillPayment Menu</a></li>
+  <li><a href="/home/test/ABC_Web/SelfService/menu.html"><b>BillPayment Menu</b></a></li>
 
-  <li><a href="/home/test/html/index.html">Home</a></li>
+  <li><a href="/home/test/ABC_Web/SelfService/index.html">Home</a></li>
   <li><a href="/home/test/html/login.html">Log Off</a></li>
 </ol>
-<br><br><br>
-<ul>
-  <li><a href="/home/test/html/billerList.html">Manage Billers</a></li>
-  <li><a href="/home/test/html/payment.html">Make Payment</a></li>
-  <li><a href="/home/test/html/history.html">View Payment History</a></li>
-</ul>
+
+<div class="Options">
+		<div class="Ch" onclick="goToPage('billerList.html')">
+			<h3 class="Manage Billers_title" title="Manage Billers">
+				Manage Billers
+			</h3>
+		</div>
+		<div class="Ch" onclick="goToPage('payment.html')">
+			<h3 class="Make Payment" title="Make Payment">
+				Make Payment
+			</h3>
+		</div>
+		<div class="Ch" onclick="goToPage('history.html')">
+			<h3 class="View Payment History" title="View Payment History" >
+				View Payment History
+			</h3>
+		</div>
+</div>
+
 
 </body>
 </html>

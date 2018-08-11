@@ -9,13 +9,14 @@
 <link rel="stylesheet" href="../CustomerOne/FormStyle.css">
 <script>
 function warn(){
-if ( document.getElementsByName('status')[0].value == "rejected" && document.getElementById('responsearea').value=="")
+if ( document.getElementsByName('status')[0].value == "rejected" && document.getElementById('responsearea').value== "")
 {
-return confirm("Please enter reason for rejection");
+alert("Please enter reason for rejection");
 }
 else
-return confirm('Form has been successfully submitted');
-
+{
+alert("Form has been successfully submitted");
+}
 }
 </script>
 
@@ -31,12 +32,12 @@ return confirm('Form has been successfully submitted');
 
 <div class="container">
 Card number:
-<input type="text" name="cardnumber">
+<input type="text" name="cardnumber" value="34567">
 <br></br>
 
 
 Card type:   
-<input type="text" name="cardtype">
+<input type="text" name="cardtype" value="Debit">
 <br></br>
 
 
@@ -53,14 +54,15 @@ Card type:
 
 Response Area:
 <br></br>
-<textarea rows="4" cols="50" align="right" id="responsearea">
+<textarea rows="4" cols="50" align="right" id="responsearea" >
 </textarea>
 <br></br>
-</div>
+
 
 <input  type="submit" value="Submit"> 
 <input type="reset">
-<button type="button" onclick="location.href=''">Back </button>
+<button type="button" onclick="location.href='ListOfCustomerRequests.html'">Back </button>
+</div>
 </fieldset>
 </form>
 

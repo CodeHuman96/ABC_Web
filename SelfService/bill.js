@@ -1,27 +1,57 @@
 function add()
 {
-	window.location.href="/home/test/html/addBiller.html"
+	window.location.href="/home/test/ABC_Web/SelfService/addBiller.html"
 }
 function update()
 {
-	window.location.href="/home/test/html/updateBiller.html"
+	window.location.href="/home/test/ABC_Web/SelfService/updateBiller.html"
 }
 function back()
 {
-	window.location.href="/home/test/html/menu.html"
+	window.location.href="/home/test/ABC_Web/SelfService/menu.html"
 }
 function billerlist()
 {
-	window.location.href="/home/test/html/billerList.html"
+	window.location.href="/home/test/ABC_Web/SelfService/billerList.html"
 }
 function addsuccess()
 {
-	window.location.href="/home/test/html/menu.html"
-	//alert("biller added successfully");
+	window.alert("biller added successfully");
 }
 function paysuccess()
 {
-	alert("Payment request successful");
+	window.alert("Payment request successful");
+}
+function table()
+{
+var e = document.getElementById("catid");
+var c = e.options[e.selectedIndex].value;
+
+var f = document.getElementById("statid");
+var s = f.options[f.selectedIndex].value;
+
+var id=0;
+
+if(c==1 && s==1)
+	id=1;
+if(c==1 && s==2)
+	id=2;
+if(c==1 && s==3)
+	id=3;
+if(c==2 && s==1)
+	id=4;
+if(c==2 && s==2)
+	id=5;
+if(c==2 && s==3)
+	id=6;
+document.getElementById(1).style.display="none";
+document.getElementById(2).style.display="none";
+document.getElementById(3).style.display="none";
+document.getElementById(4).style.display="none";
+document.getElementById(5).style.display="none";
+document.getElementById(6).style.display="none";
+
+document.getElementById(id).style.display="table";
 }
 /*
 function validate(uname,pswd)
@@ -34,3 +64,4 @@ function validate(uname,pswd)
 	else
 		alert("Incorrect username or password");
 }*/
+

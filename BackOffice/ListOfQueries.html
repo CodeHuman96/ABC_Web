@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="ListOfQueries.css">
+		<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
+		<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/FormStyle.css">
+		
+
+		<script type="text/javascript" src="ListOfQueries.js"></script>	
+	</head>
+<body>
+
+	<div class="introduction">
+		<h1 class="pageLabel">List of Queries<h1>
+	</div>
+	<br>
+	<br>
+	
+	<div class="container">
+	<table align='center' id="table1">
+		
+		<tr id='table1'>
+			<td id='table1'>
+				<label>Status:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</label> 
+			</td>
+			
+			<td id='table1'>
+				<select name="Status" id="status">
+					<option value="Pending">Pending</option>
+					<option value="Rejected">Responded</option>
+				</select>
+			</td>
+		</tr>
+	</table>
+  	
+	<button style='float:right' onclick="tableDisplay()">Submit</button>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	
+	<!--table0-->
+	<table id="0"  class="tabular" style="display:none" align='center'>
+		<tr>
+			<th>Query Number</th>
+			<th>Customer Name</th>
+			<th>Customer Query</th>
+			<th>Query Response</th>
+			<th>Status</th>
+		</tr>
+		<tr>
+			<td>52365</td>
+			<td>Mathew Perry</td>
+			<td>How to apply for new cheque book?</td>
+			<td>null</td>
+			<td>Pending</td>
+		</tr>
+		<tr>
+			<td>52363</td>
+			<td>Jensen Ackles</td>
+			<td>How long will it take to get new card?</td>
+			<td>null</td>
+			<td>Pending</td>
+		</tr>
+	</table>
+	
+	<!--table1-->
+	<table id="1" class="tabular" style="display:none" align='center'>
+		<tr>
+			<th>Query Number</th>
+			<th>Customer Name</th>
+			<th>Customer Query</th>
+			<th>Query Response</th>
+			<th>Status</th>
+		</tr>
+		<tr>
+			<td>52345</td>
+			<td>Kenny Thomas</td>
+			<td>What are the documents required for add on card?</td>
+			<td>pan card, aadhar card</td>
+			<td>Responded</td>
+		</tr>
+		<tr>
+			<td>52321</td>
+			<td>Florance Nightingale</td>
+			<td>How to apply for new cheque book?</td>
+			<td>visit bank </td>
+			<td>Pending</td>
+		</tr>
+	</table>
+
+	
+	
+	<br>
+	<br>
+	<br>
+	
+	<form  action="BackOfficeMenu.html" style ="text-align:center;">
+			<button id='b1'>Back</button>
+	</form>
+	</div>
+  
+</body>
+</html>
+

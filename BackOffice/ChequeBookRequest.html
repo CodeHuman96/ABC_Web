@@ -7,14 +7,18 @@
 <title> Cheque Book Request </title>
 <link rel="stylesheet" href="../CustomerOne/PageStyling.css">
 <link rel="stylesheet" href="../CustomerOne/FormStyle.css">
+
 <script>
+
 function warn(){
-if ( document.getElementsByName('status')[0].value == "rejected" && document.getElementById('responsearea').value=="")
+
+if ( document.getElementsByName('status')[0].value == "rejected" && document.getElementById("responsearea").value=="")
 {
-return confirm("Please enter reason for rejection");
+alert("Please enter reason for rejection");
 }
 else
-return confirm('Form has been successfully submitted');
+{alert('Form has been successfully submitted');}
+
 
 }
 </script>
@@ -24,31 +28,31 @@ return confirm('Form has been successfully submitted');
 
 <body>
 
-<form  onsubmit="warn() ">
+<form  onsubmit="warn()">
 <fieldset>
 <div class="introduction" ><h1 >Cheque Book Request </h1></div>
 <br>
 
 <div class="container">
 Account number:
-<input type="text" name="accountnumber">
+<input type="text" name="accountnumber" value="1234785960">
 <br></br>
 
 
 Account type:   
-<input type="text" name="accounttype">
+<input type="text" name="accounttype" value="Current">
 <br></br>
 
 Customer Name:   
-<input type="text" name="customername">
+<input type="text" name="customername" value="Kenny Thomas">
 <br></br>
 
 Request Date:   
-<input type="text" name="requestdate">
+<input type="text" name="requestdate" value="2017-12-21">
 <br></br>
 
 Number of Leaves:   
-<input type="text" name="numberofleaves">
+<input type="text" name="numberofleaves" value="20">
 <br></br>
 
 <span style="color:red">*</span>Status:
@@ -64,15 +68,16 @@ Number of Leaves:
 
 Response Area:
 <br></br>
-<textarea rows="4" cols="50" align="right" id="responsearea">
-</textarea>
+<textarea rows="4" cols="50" align="right" id="responsearea"></textarea>
 <br></br>
 
 
+<!--<button  type="submit" onclick="warn()" >Submit</button> -->
+
 <input  type="submit" value="Submit"> 
-<!--<button type="button" onclick="warn()">  Submit</button>-->
+
 <input type="reset">
-<button type="button" onclick="location.href=''">Back </button>
+<button type="button" onclick="location.href='ListOfCustomerRequests.html'">Back </button>
 </div>
 </fieldset>
 </form>
