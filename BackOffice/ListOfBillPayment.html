@@ -4,6 +4,9 @@
 <head>
 <title > List of Bill Payments</title>
 <link rel="stylesheet" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" href="../CustomerOne/FormStyle.css">
+
+
 <script>
 function sub()
 {var x1=document.getElementById("row");
@@ -23,8 +26,10 @@ return alert('Action has been performed!');
 <body>
 <div class="introduction"><h1 > List of Customer Bill Payment Requests</h1></div>
 <br><br><br>
+<div class="container">
+<div class="tabular">
+<table id="table" >
 
-<table id="table" style="font-size:15px ;width:100%; text-align:center">
  <tr>
 
  <th> Biller Id</th>
@@ -101,11 +106,12 @@ return alert('Action has been performed!');
 
 
 </table>
+</div>
 
 <br><br><br>
 <button type="submit" onclick="sub()" >Submit</button>
 <button  align="right"  type="button" onclick="location.href=''">Back </button>
 
-
+</div>
 </body>
 </html> 

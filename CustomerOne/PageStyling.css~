@@ -13,11 +13,7 @@
 .Options {
 	margin: auto;
     border: 0px solid green;
-<<<<<<< HEAD
     padding: 60px;	
-=======
-    padding: 10px;	
->>>>>>> 6dba1f441fd6db0d1b3ea62302f5aeb78d277ffc
 }
 .Options .Ch{
     background-color: #FFAA5A; /* Green */
@@ -42,16 +38,15 @@
 		
 }
 body {
-<<<<<<< HEAD
-<<<<<<< HEAD
    background-image: url("../Pictures/BackGround1.png");
-=======
-   background-image: url("home/test/ABC_Web/Pictures/BackGround.jpg");
->>>>>>> 6dba1f441fd6db0d1b3ea62302f5aeb78d277ffc
-=======
-   background-image: url("home/test/Desktop/ABC_Web/Pictures/BackGround.jpg");
->>>>>>> 5ce3a8be931ac98830cbba5727d97b2943b462f4
    background-color: #cccccc;
+<<<<<<< HEAD
+   background-repeat: no-repeat;
+=======
+	 background-repeat: no-repeat;
+   height: 100%; 
+   size: cover;
+>>>>>>> 60cd5ceaf86101dbd68708dfde9a84fda65b8cc8
 }
 /*.info{
 	position: fixed;
@@ -73,12 +68,14 @@ body {
     padding: 10px;
 		padding-top: 50px;
 		padding-left: 0px;
-		background-color: rgba(0, 0, 0, 0.5);
+		background-color: rgba(0, 0, 0, 0.7);
 
 }
 .tabular td, .tabular th {
     border: 0px solid #ddd;
     padding: 8px;
+	width: 100%;
+    
 }
 
 .tabular tr:nth-child(even){	

@@ -4,7 +4,9 @@
 
 
 <head>
+<title> Lost or Stolen Card </title>
 <link rel="stylesheet" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" href="../CustomerOne/FormStyle.css">
 <script>
 function warn(){
 if ( document.getElementsByName('status')[0].value == "rejected" && document.getElementById('responsearea').value=="")
@@ -27,7 +29,7 @@ return confirm('Form has been successfully submitted');
 <div class="introduction"><h1 >Lost or Stolen Card </h1></div>
 <br>
 
-
+<div class="container">
 Card number:
 <input type="text" name="cardnumber">
 <br></br>
@@ -54,10 +56,9 @@ Response Area:
 <textarea rows="4" cols="50" align="right" id="responsearea">
 </textarea>
 <br></br>
-
+</div>
 
 <input  type="submit" value="Submit"> 
-<!--<button type="button" onclick="warn()">  Submit</button>-->
 <input type="reset">
 <button type="button" onclick="location.href=''">Back </button>
 </fieldset>
