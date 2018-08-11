@@ -112,13 +112,13 @@ return alert('Action has been performed!');
  <td> 4500.00</td>
  <td> 8970.00</td>
  <td><div class="radio">
-                     <label><input type="radio"   name="optrad">Force Pay</label>
+                     <label><input type="radio"   name="optra">Force Pay</label>
                  </div></td>
  <td><div class="radio">
-                     <label disabled><input type="radio"   name="optrad" disabled>Pay</label>
+                     <label disabled><input type="radio"   name="optra" disabled>Pay</label>
                  </div></td>
  <td><div class="radio">
-                     <label><input type="radio"  name="optrad">Reject</label>
+                     <label><input type="radio"  name="optra">Reject</label>
                  </div></td>
 
  </tr>
