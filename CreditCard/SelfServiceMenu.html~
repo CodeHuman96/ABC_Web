@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<body>
+	
+		 <span style='font-weight:bold;font-size:25px;margin-left:275px;float:center;'>Credit Card Self-Service Menu</span>
+ 
+		 <span style='float:right;display:inline-block;'>Welcome xxxxx</span><br><br><br>
+
+		<a href="CustLogin.html" style='float:right;'>SignOut</a>
+		
+		<br><br><br><br>
+
+		<div style='margin-left:275px'>
+
+		<form action="Redeem.html"><button><a href="Redeem.html">Redeem Reward Points</a></button></form><br><br><br><br><br>
+		<form action="View.html"><button><a href="View.html">View Request Status</a></button></form><br><br><br><br><br>
+		<form action="List.html"><button><a href="List.html">List of Credit Card Accounts</a></button></form>
+		
+		</div>
+
+ 
+</body>
+
+</head>
+</html>

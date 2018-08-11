@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<title> Customer One System </title>
+<link rel="stylesheet" type="text/css" href="PageStyling.css">
+</head>
+<body>
+<div class="introduction">
+	<h2>Data De-Duplication</h2>
+</div>
+<div class="tabular">
+<table>
+	<tr>
+			<th>&nbsp;Check&nbsp;</th>
+	  	<th>&ensp;Account Number&ensp;</th>
+	  	<th>&ensp;Name&ensp;</th>
+	  	<th>&ensp;Address&ensp;</th>
+	  	<th>&ensp;City&ensp;</th> 
+			<th>&ensp;Pin&ensp;</th>
+			<th>&ensp;Contact No&ensp;</th>
+			<th>&ensp;DOB&ensp;</th>
+			<th>&ensp;Status&ensp;</th>
+			<th>&ensp;PAN&ensp;</th>
+
+
+
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="name1" />&nbsp;</td>
+			<td>&ensp;10000&ensp;</td>
+			<td>&ensp;Anshuman&ensp;</td>
+			<td>&ensp;Karapakkam&ensp;</td>
+			<td>&ensp;Chennai&ensp;</td>
+			<td>&ensp;600000&ensp;</td>
+			<td>&ensp;9999988877&ensp;</td>
+			<td>&ensp;29/06/1996&ensp;</td>
+			<td>&ensp;Active&ensp;</td>
+			<td>&ensp;null&ensp;</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="name1" />&nbsp;</td>
+			<td>&ensp;10001&ensp;</td>
+			<td>&ensp;Kartihga&ensp;</td>
+			<td>&ensp;T&ensp;</td>
+			<td>&ensp;Chennai&ensp;</td>
+			<td>&ensp;600000&ensp;</td>
+			<td>&ensp;9999988877&ensp;</td>
+			<td>&ensp;29/06/1996&ensp;</td>
+			<td>&ensp;Active&ensp;</td>
+			<td>&ensp;null&ensp;</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="name1" />&nbsp;</td>
+			<td>&ensp;10000&ensp;</td>
+			<td>&ensp;Anshuman&ensp;</td>
+			<td>&ensp;Karapakkam&ensp;</td>
+			<td>&ensp;Chennai&ensp;</td>
+			<td>&ensp;600000&ensp;</td>
+			<td>&ensp;9999988877&ensp;</td>
+			<td>&ensp;29/06/1996&ensp;</td>
+			<td>&ensp;Active&ensp;</td>
+			<td>&ensp;null&ensp;</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="name1" />&nbsp;</td>
+			<td>&ensp;10000&ensp;</td>
+			<td>&ensp;Anshuman&ensp;</td>
+			<td>&ensp;Karapakkam&ensp;</td>
+			<td>&ensp;Chennai&ensp;</td>
+			<td>&ensp;600000&ensp;</td>
+			<td>&ensp;9999988877&ensp;</td>
+			<td>&ensp;29/06/1996&ensp;</td>
+			<td>&ensp;Active&ensp;</td>
+			<td>&ensp;null&ensp;</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="name1" />&nbsp;</td>
+			<td>&ensp;10000&ensp;</td>
+			<td>&ensp;Anshuman&ensp;</td>
+			<td>&ensp;Karapakkam&ensp;</td>
+			<td>&ensp;Chennai&ensp;</td>
+			<td>&ensp;600000&ensp;</td>
+			<td>&ensp;9999988877&ensp;</td>
+			<td>&ensp;29/06/1996&ensp;</td>
+			<td>&ensp;Active&ensp;</td>
+			<td>&ensp;null&ensp;</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="name1" />&nbsp;</td>
+			<td>&ensp;10000&ensp;</td>
+			<td>&ensp;Anshuman&ensp;</td>
+			<td>&ensp;Karapakkam&ensp;</td>
+			<td>&ensp;Chennai&ensp;</td>
+			<td>&ensp;600000&ensp;</td>
+			<td>&ensp;9999988877&ensp;</td>
+			<td>&ensp;29/06/1996&ensp;</td>
+			<td>&ensp;Active&ensp;</td>
+			<td>&ensp;null&ensp;</td>
+		</tr>
+		
+		
+</table>
+</div>
+</body>
+</html>

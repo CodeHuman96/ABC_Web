@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<script src="bill.js" type="text/javascript"> </script>
+</head>
+<style>
+h3{
+text-align:center;
+margin-left:375px;
+color:white;
+}
+ol {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ol li {
+    float: left;
+}
+
+ol li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+form{
+    margin-left:50px;
+}
+input[type=text],input[type=number],select,input[type=date]{
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=submit]{
+   background-color: black;
+   color:white;
+   margin-left:0px;
+   text-align: center;
+   padding: 8px 24px;
+}
+input[type=reset],input[type=button]{
+   background-color: black;
+   color:white;
+   margin-left:50px;
+   text-align: center;
+   padding: 8px 24px;
+}
+input[type=radio]{
+   margin-left:50px;
+}
+</style>
+<ol>
+  <li><h3>Make Payment</h3></li>
+</ol>
+<br><br>
+<form action="/home/test/html/menu.html">
+
+  Account Numer <br>
+  <select name="ac">
+    <option value="ac1">20255169194</option>
+    <option value="ac2"></option>
+    <option value="ac3"></option>
+  </select>
+  <br><br>
+
+  Biller <br>
+  <select name="biller">
+    <option value="sar">Saranya K</option>
+    <option value="vir">Viraja Koganti</option>
+    <option value="shiv">Shiva</option>
+  </select>
+  <br><br>
+
+  Bill Amount <br>
+  <input type="number" placeholder="Enter amount" name="amount" min="1" required><br><br>
+  Pay Now?  
+  <input type="radio" name="pin" required>
+  <input type="radio" name="pin" required>
+  <br><br><br>
+  
+  Payment Due<br>
+  <input type="date" name="ddate" pattern="^([0][1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/[12][0-9]{3}$" placeholder="dd/mm/yyyy"><br><br>
+
+  <input type="submit" value="Submit"> 
+<!--  <input type="button" class="1" onclick="paysuccess()" value="Submit"> -->
+  <input type="reset">
+  <input type="button" onclick="back()" value="Back">
+  <br><br><br><br>
+</form> 
+
+</body>
+</html>

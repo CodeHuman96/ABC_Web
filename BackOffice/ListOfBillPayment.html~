@@ -1,0 +1,111 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+<title > Query Respons </title>
+<link rel="stylesheet" href="../CustomerOne/PageStyling.css">
+<script>
+function sub()
+{var x1=document.getElementById("row");
+var x2=document.getElementById("row1");
+var x3=document.getElementById("row2");
+x1.style.display="none";
+x2.style.display="none";
+x3.style.display="none";
+return alert('Action has been performed!');
+}
+
+</script>
+
+</head>
+
+
+<body>
+<div class="introduction"><h1 > List of Customer Bill Payment Requests</h1></div>
+<br><br><br>
+
+<table id="table" style="font-size:15px ;width:100%; text-align:center">
+ <tr>
+
+ <th> Biller Id</th>
+ <th> Customer Name</th>
+<!-- <th> Customer Request</th> -->
+ <th> Account Number</th>
+ <th> Account Balance</th>
+ <th> Bill Amount</th>
+ <th> </th>
+ <th> </th>
+ <th> </th>
+
+ </tr>
+
+
+
+ <tr id="row">
+ <td> 1</td>
+  <td>Karthiga</td>
+ <td> 23456A</td>
+ <td> 55000.00</td>
+ <td> 13670.00</td>
+ <td><div class="radio">
+                     <label disabled><input type="radio"  name="optradio"  disabled>Force Pay</label>
+                 </div></td>
+ <td><div class="radio">
+                     <label ><input type="radio"  name="optradio"  >Pay</label>
+                 </div></td>
+ <td><div class="radio">
+                     <label disabled><input type="radio" name="optradio" disabled>Reject</label>
+                 </div></td>
+
+ </tr>
+
+
+ <tr id="row1">
+ <td> 5</td>
+  <td>Sampada</td>
+ <td> 45456A</td>
+ <td> 5000.00</td>
+ <td> 270.00</td>
+ <td><div class="radio">
+                     <label disabled><input type="radio"  name="optradi"disabled>Force Pay</label>
+                 </div></td>
+ <td><div class="radio">
+                     <label><input type="radio"  name="optradi" >Pay</label>
+                 </div></td>
+ <td><div class="radio">
+                     <label disabled><input type="radio"  name="optradi" disabled>Reject</label>
+                 </div></td>
+
+ </tr>
+
+
+ <tr id="row2">
+ <td> 9</td>
+  <td>Saranya</td>
+ <td> 69456A</td>
+ <td> 2000.00</td>
+ <td> 3670.00</td>
+ <td><div class="radio">
+                     <label><input type="radio"   name="optrad">Force Pay</label>
+                 </div></td>
+ <td><div class="radio">
+                     <label disabled><input type="radio"   name="optrad" disabled>Pay</label>
+                 </div></td>
+ <td><div class="radio">
+                     <label><input type="radio"  name="optrad">Reject</label>
+                 </div></td>
+
+ </tr>
+
+
+
+
+</table>
+
+<br><br><br>
+<button type="submit" onclick="sub()" >Submit</button>
+<button  align="right"  type="button" onclick="location.href=''">Back </button>
+
+
+</body>
+</html> 
