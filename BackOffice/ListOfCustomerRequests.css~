@@ -1,5 +1,6 @@
 h2{
 	text-align:center;
+	
 }
 #table1{
 	border:none;
@@ -21,7 +22,7 @@ select{
 	width:200px;
 }
 #b1{
-	width:170px;
+	width:70px;
 }
 
 
