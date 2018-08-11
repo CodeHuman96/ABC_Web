@@ -99,7 +99,7 @@ table, th, td {
 <body>
 	
 		<div class="introduction">
-			<h1 class="pageLabel">Redeem Reward Points</h1>
+			<h1 class="pageLabel">Redeem Reward Points<span style="float:right;font-size:20px">xxxxxxxx </span></h1>
 		</div>
 		
 		 
@@ -141,7 +141,7 @@ table, th, td {
 		</div>
 		
 		<br>
-			<form style='margin-left:5cm'>Total Points Redeemed :<input type='text' width="10px" id='tot'   ></form>			
+			<form style='margin-left:15cm'>Total Points Redeemed :<input type='text' width="10px" id='tot'   ></form>			
 				
 		<br>
 

@@ -9,9 +9,9 @@
 <title> Query Response </title>
 <script>
 function warn(){
-if ( document.getElementsByName('status')[0].value == "rejected" && document.getElementById('responsearea').value=="")
+if (document.getElementById('responsearea').value=="")
 {
-return confirm("Please enter reason for rejection");
+return confirm("Please enter reason ");
 }
 else
 return confirm('Form has been successfully submitted');
@@ -33,34 +33,35 @@ return confirm('Form has been successfully submitted');
 
 
 Customer Name:
-<input type="text" name="customername">
+<input type="text" name="customername" value="Mathew Perry">
 <br></br>
 
 
 Query received on:   
-<input type="text" name="querydate">
+<input type="text" name="querydate" value="2018-06-06">
 <br></br>
 
 Query:
 <br></br>
 <textarea rows="4" cols="50" align="right" id="query">
+How to apply for new cheque book?
 </textarea>
 <br></br>
 
 
 
-<span style="color:red">*</span>Status:
+Status:
 <select name="status">
-  <option value="rejected">Rejected</option>
+  
   <option value="pending">Pending</option>
-  <option value="processed">Processed</option>
+  <option value="responded">Responded</option>
  </select>
 <br></br>
 
 
 
 
-Response :
+<span style="color:red">*</span>Response :
 <br></br>
 <textarea rows="4" cols="50" align="right" id="responsearea">
 </textarea>
@@ -70,7 +71,7 @@ Response :
 <input  type="submit" value="Submit"> 
 <!--<button type="button" onclick="warn()">  Submit</button>-->
 <input type="reset">
-<button type="button" onclick="location.href='ListOfCustomerRequests.html'">Back </button>
+<button type="button" onclick="location.href='ListOfQueries.html'">Back </button>
 </div>
 </fieldset>
 </form>

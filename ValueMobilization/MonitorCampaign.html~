@@ -47,11 +47,19 @@ table, th, td {
 <ul>
 <li><a href="CampaignManagement.html">Back</a></li> 
 <li><a href="Login.html">Logout</a></li>
+<li><a href="Home.html">Home</a></li>
 </ul>
 
+<<<<<<< HEAD
+<br>
+
+<h1 class="introduction">Monitor Campaign Effectiveness</h1>
+<br>
+=======
 <h1>Monitor Campaign Effectiveness</h1>
 <<<<<<< HEAD
 =======
+>>>>>>> baa4fd73c7d7bbde174e560d3b8d2d17da935f3b
 <form class="container">
 >>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 Campaign:

@@ -11,7 +11,7 @@
 <body>
 
 	<div class="introduction">
-		<h1 class="pageLabel">Welcome to Customer One Main Menu<h1>
+		<h1 class="pageLabel">List of Queries<h1>
 	</div>
 	<br>
 	<br>
@@ -86,7 +86,7 @@
 			<td>Florance Nightingale</td>
 			<td>How to apply for new cheque book?</td>
 			<td>visit bank </td>
-			<td>Pending</td>
+			<td>Responded</td>
 		</tr>
 	</table>
 

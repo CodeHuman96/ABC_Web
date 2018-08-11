@@ -1,41 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="BackOfficeMenu.css">
-	</head>
-
-	<body>
-		<u><h2>Back Office Menu</h2></u>
-		<br>
-		<br>
-		
-		<form id="one" action="/home/test/ABC_Web/CustomerOne/EmployeeMainMenu.html" style ="text-align:right;">
-			<button>Signout</button>
-		</form>		
-				
-		<div>
-			<form action="ListOfQueries.html">
-				<button>
-					<a href="ListOfQueries.html">Queries</a>
-				</button>
-			</form>
-			<br>
-			<br>
-
-			<form action="ListOfBillPayments.html">
-				<button>
-					<a href="ListOfBillPayments.html">Bill Payment</a>
-				</button>
-			</form>
-			<br>
-			<br>
-		
-			<form action="ListOfCustomerRequests.html">
-				<button>
-					<a href="ListOfCustomerRequests.html">Cuastomer Requests</a>
-				</button>
-			</form>
+<head>
+<title> Back Office Menu </title>
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
+</head>
+<script>
+function goToPage(url) {
+    window.location.href = url;
+}
+</script>
+<body>
+	<div class="introduction">
+		<h1 class="pageLabel">Back Office Menu</h1>
+	</div>
+	<div class="Options">
+		<div class="Ch">
+			<h3 class="Queries_title" title="Queries" onclick="goToPage('ListOfQueries.html')">
+				Queries
+			</h3>
+			
+		</div>
+		<div class="Ch">
+			<h3 class="backOffice_title" title="Bill Payment" onclick="goToPage('ListOfBillPayment.html')">
+				Bill Payment
+			</h3>
+		</div>
+		<div class="Ch">
+			<h3 class="RewardCatalog_title" title="Customer Requests" onclick="goToPage('ListOfCustomerRequests.html')">
+				Customer Requests
+			</h3>
 		</div>
 
-	</body>
-</html>
+		<div class="Ch">
+			<h3 class="RewardCatalog_title" title="RewardCatalog" onclick="goToPage('ListOfCustomerRequests.html')">
+				Customer Requests
+			</h3>
+		</div>
+
+		
+	</div>
+</body>
+</html>	

@@ -1,50 +1,8 @@
-<!--<!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="BackOfficeMenu.css">
-	</head>
-
-	<body>
-		<u><h2>Back Office Menu</h2></u>
-		<br>
-		<br>
-		
-		<form id="one" action="/home/test/ABC_Web/CustomerOne/EmployeeMainMenu.html" style ="text-align:right;">
-			<button>Signout</button>
-		</form>		
-				
-		<div>
-			<form action="ListOfQueries.html">
-				<button>
-					<a href="ListOfQueries.html">Queries</a>
-				</button>
-			</form>
-			<br>
-			<br>
-
-			<form action="ListOfBillPayments.html">
-				<button>
-					<a href="ListOfBillPayments.html">Bill Payment</a>
-				</button>
-			</form>
-			<br>
-			<br>
-		
-			<form action="ListOfCustomerRequests.html">
-				<button>
-					<a href="ListOfCustomerRequests.html">Cuastomer Requests</a>
-				</button>
-			</form>
-		</div>
-
-	</body>
-</html>-->
-
 <!doctype html>
 <html>
 <head>
-<title> Customer One System </title>
-<link rel="stylesheet" type="text/css" href="PageStyling.css">
+<title> Back Office Menu </title>
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
 </head>
 <script>
 function goToPage(url) {
@@ -53,30 +11,33 @@ function goToPage(url) {
 </script>
 <body>
 	<div class="introduction">
-		<h1 class="pageLabel">Back Office Menu<h1>
+		<h1 class="pageLabel">Back Office Menu</h1>
 	</div>
 	<div class="Options">
 		<div class="Ch">
-			<h3 class="CustomerOne_title" title="CustomerOneS" onclick="goToPage('\CustomerOneMain.html')">
-				Customer One Service
+			<h3 class="queries_title" title="Queries" onclick="goToPage('ListOfQueries.html')">
+				Queries
 			</h3>
 			
 		</div>
 		<div class="Ch">
-			<h3 class="backOffice_title" title="BackOffice" onclick="goToPage('to do.html')">
-				Back Office
+			<h3 class="billpayment_title" title="Bill Payment" onclick="goToPage('ListOfBillPayment.html')">
+				Bill Payment
 			</h3>
 		</div>
 		<div class="Ch">
-			<h3 class="RewardCatalog_title" title="RewardCatalog" onclick="goToPage('to do.html')">
-				Reward Catalog
+			<h3 class="customerrequest_title" title="Customer Requests" onclick="goToPage('ListOfCustomerRequests.html')">
+				Customer Requests
 			</h3>
 		</div>
+
 		<div class="Ch">
-			<h3 class="CampaignManagement_title" title="CampaignManagement" onclick="goToPage('to do.html')">
-				Campaign Management
+			<h3 class="signout_title" title="Signout" onclick="goToPage('/home/test/ABC_Web/CustomerOne/EmployeeMainMenu.html')">
+				Signout
 			</h3>
 		</div>
+
+		
 	</div>
 </body>
 </html>	
