@@ -57,8 +57,8 @@ li a:hover {
 </style>
 
 <ol>
-  <li><a href="/home/test/ABC_Web/SelfService/menu.html">BillPayment Menu</a></li>
-  <li><a href="/home/test/ABC_Web/SelfService/index.html">Home</a></li>
+  <li><a href="/home/test/html/menu.html">BillPayment Menu</a></li>
+  <li><a href="/home/test/html/index.html">Home</a></li>
   <li><a href="/home/test/html/login.html">Log Off</a></li>
 </ol>
 <h1> List of Billers</h1>

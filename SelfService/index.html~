@@ -24,7 +24,7 @@ a:hover {
 <h1>
 	Welcome to Online BillPayment System
 </h1>
-<a href="/home/test/html/login.html"> Click here to login </a>
+<a href="/home/test/ABC_Web/SelfService/login.html"> Click here to login </a>
 
 </body>
 </html>

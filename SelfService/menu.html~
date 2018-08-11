@@ -51,16 +51,16 @@ li a:hover {
 </style>
 
 <ol>
-  <li><a href="/home/test/ABC_Web/SelfService/menu.html">BillPayment Menu</a></li>
+  <li><a href="/home/test/html/menu.html">BillPayment Menu</a></li>
 
-  <li><a href="/home/test/ABC_Web/SelfService/index.html">Home</a></li>
+  <li><a href="/home/test/html/index.html">Home</a></li>
   <li><a href="/home/test/html/login.html">Log Off</a></li>
 </ol>
 <br><br><br>
 <ul>
-  <li><a href="/home/test/ABC_Web/SelfService/billerList.html">Manage Billers</a></li>
-  <li><a href="/home/test/ABC_Web/SelfService/payment.html">Make Payment</a></li>
-  <li><a href="/home/test/ABC_Web/SelfService/history.html">View Payment History</a></li>
+  <li><a href="/home/test/html/billerList.html">Manage Billers</a></li>
+  <li><a href="/home/test/html/payment.html">Make Payment</a></li>
+  <li><a href="/home/test/html/history.html">View Payment History</a></li>
 </ul>
 
 </body>
