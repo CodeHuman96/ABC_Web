@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<title> Customer One System </title>
+<link rel="stylesheet" type="text/css" href="PageStyling.css">
+</head>
+<script>
+function goToPage(url) {
+    window.location.href = url;
+}
+</script>
+<body>
+	<div class="introduction">
+		<h2 class="pageLabel">Options<h2>
+	</div>
+	<div class="Options">
+		<div class="ChOne">
+			<h3 class="CustomerOne_title" title="CustomerOneS" onclick="goToPage('\CustomerOneMain.html')">
+				Customer One Service
+			</h3>
+			
+		</div>
+		<div class="ChTwo">
+			<h3 class="backOffice_title" title="BackOffice" onclick="goToPage('to do.html')">
+				Back Office
+			</h3>
+		</div>
+		<div class="ChThree">
+			<h3 class="RewardCatalog_title" title="RewardCatalog" onclick="goToPage('to do.html')">
+				Reward Catalog
+			</h3>
+		</div>
+		<div class="Chfour">
+			<h3 class="CampaignManagement_title" title="CampaignManagement" onclick="goToPage('to do.html')">
+				Campaign Management
+			</h3>
+		</div>
+	</div>
+</body>
+</html>	
