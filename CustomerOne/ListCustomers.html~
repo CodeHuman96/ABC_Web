@@ -47,10 +47,18 @@
 		<tr>
 			<td>&ensp;Veeraja&ensp;</td>
 			<td>&ensp;CUS003&ensp;</td>
-			<td>&ensp;19/05/1996&ensp;</td>
+			<td>&ensp;05/09/1996&ensp;</td>
 			<td>&ensp;sriveeraja@gmail.com&ensp;</td>
 			<td>&ensp;null&ensp;</td>
 			<td>&ensp;9999980000&ensp;</td>
+		</tr>
+		<tr>
+			<td>&ensp;Yadav&ensp;</td>
+			<td>&ensp;CUS004&ensp;</td>
+			<td>&ensp;19/05/1996&ensp;</td>
+			<td>&ensp;yadav@gmail.com&ensp;</td>
+			<td>&ensp;null&ensp;</td>
+			<td>&ensp;9999980110&ensp;</td>
 		</tr>
 		
 		
