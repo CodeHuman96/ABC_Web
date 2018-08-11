@@ -2,14 +2,36 @@
 <html>
 
 <head>
+<title > List of Bill Payments</title>
+<link rel="stylesheet" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" href="../CustomerOne/FormStyle.css">
+
+
+<script>
+function sub()
+{var x1=document.getElementById("row");
+var x2=document.getElementById("row1");
+var x3=document.getElementById("row2");
+var x4=document.getElementById("row3");
+x1.style.display="none";
+x2.style.display="none";
+x3.style.display="none";
+x4.style.display="none";
+return alert('Action has been performed!');
+}
+
+</script>
 
 </head>
 
 
 <body>
-<h1 style="text-align:center"> List of Customer Bill Payment Requests</h1>
+<div class="introduction"><h1 > List of Customer Bill Payment Requests</h1></div>
+<br><br><br>
+<div class="container">
 
-<table style="font-size:15px ;width:100%; text-align:center">
+<table class="tabular" id="table" width=100% >
+
  <tr>
 
  <th> Biller Id</th>
@@ -26,7 +48,7 @@
 
 
 
- <tr>
+ <tr id="row">
  <td> 1</td>
   <td>Karthiga</td>
  <td> 23456A</td>
@@ -45,7 +67,7 @@
  </tr>
 
 
- <tr>
+ <tr id="row1">
  <td> 5</td>
   <td>Sampada</td>
  <td> 45456A</td>
@@ -64,7 +86,7 @@
  </tr>
 
 
- <tr>
+ <tr id="row2">
  <td> 9</td>
   <td>Saranya</td>
  <td> 69456A</td>
@@ -83,12 +105,35 @@
  </tr>
 
 
+  <tr id="row3">
+ <td> 19</td>
+  <td>Sri Viraja</td>
+ <td> 69456A</td>
+ <td> 4500.00</td>
+ <td> 8970.00</td>
+ <td><div class="radio">
+                     <label><input type="radio"   name="optra">Force Pay</label>
+                 </div></td>
+ <td><div class="radio">
+                     <label disabled><input type="radio"   name="optra" disabled>Pay</label>
+                 </div></td>
+ <td><div class="radio">
+                     <label><input type="radio"  name="optra">Reject</label>
+                 </div></td>
+
+ </tr>
+
+
+
 
 
 </table>
 
 
+<br><br><br>
+<button type="submit" onclick="sub()" >Submit</button>
+<button  align="right"  type="button" onclick="location.href=''">Back </button>
 
-
+</div>
 </body>
 </html> 

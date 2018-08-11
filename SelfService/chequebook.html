@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>Cheque Book Request</title>
+<script src="selfservice.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
+</head>
 <body>
-<p>cheque</p>
+<div class="introduction">
+<h1>Cheque Book Request</h1>
+</div>
+<div class="container">
+<form onsubmit="success()">
+	<label>Name:xxxxxxxxx</label>
+	<br><br>
+	<label>Account No:</label>
+	<select required>
+	<option value="123456789">123456789</option>
+	<option value="753914682">753914682</option>
+	<option value="789456123">789456123</option>
+	</select>
+	<br><br>
+	<input type="radio" name="leaves" value="20" checked>20
+  	<input type="radio" name="leaves" value="50">50
+  	<input type="radio" name="leaves" value="100">100
+	<br><br>
+	<input type="submit" value="Submit">
+	<input type="button" value="Back" onclick="back()">
+</form>
+</div>
 </body>
 </html>
