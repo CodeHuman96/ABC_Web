@@ -39,16 +39,25 @@
 		
 }
 body {
+<<<<<<< HEAD
+   background-image: url("../Pictures/BackGround1.png");
+   background-color: #cccccc;
+=======
    
 	
 background-image: url("../Pictures/BackGround1.png");
 background-size: cover;
     background-position: 0% 15%;
 	   background-color: #cccccc;
+>>>>>>> a29569ae0330d634b86e4d4ac1de4dae85baa8fa
 	 background-repeat: no-repeat;
 	
    height: 100%; 
+<<<<<<< HEAD
+   size: cover;
+=======
    
+>>>>>>> a29569ae0330d634b86e4d4ac1de4dae85baa8fa
 }
 /*.info{
 	position: fixed;
@@ -74,7 +83,16 @@ background-size: cover;
 	table-layout: auto;
 
 }
+<<<<<<< HEAD
+.tabular td, .tabular th {
+    border: 0px solid #ddd;
+    padding: 8px;
+	width: 50%;
+    
+}
+=======
 
+>>>>>>> a29569ae0330d634b86e4d4ac1de4dae85baa8fa
 
 .tabular tr:nth-child(even){	
 	background-color: #f2f2f2;

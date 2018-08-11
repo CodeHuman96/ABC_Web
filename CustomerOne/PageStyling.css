@@ -66,7 +66,7 @@ background-size: cover;
 		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     margin: auto;
-    width: 100%;
+    
     padding: 10px;
 		padding-top: 50px;
 		padding-left: 0px;
@@ -74,7 +74,16 @@ background-size: cover;
 	table-layout: auto;
 
 }
+<<<<<<< HEAD
+.tabular td, .tabular th {
+    border: 0px solid #ddd;
+    padding: 8px;
+	 
+    
+}
+=======
 
+>>>>>>> a29569ae0330d634b86e4d4ac1de4dae85baa8fa
 
 .tabular tr:nth-child(even){	
 	background-color: #f2f2f2;
