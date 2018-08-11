@@ -74,16 +74,13 @@ background-size: cover;
 	table-layout: auto;
 
 }
-<<<<<<< HEAD
+
 .tabular td, .tabular th {
     border: 0px solid #ddd;
     padding: 8px;
 	 
     
 }
-=======
-
->>>>>>> a29569ae0330d634b86e4d4ac1de4dae85baa8fa
 
 .tabular tr:nth-child(even){	
 	background-color: #f2f2f2;
@@ -130,13 +127,6 @@ li a {
 a:hover {
     background-color: green;
 }
-
-
-
-
-
-
-
 
 
 
