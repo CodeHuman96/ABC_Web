@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
- 
+ <link rel="stylesheet" href="PageStyling.css">
+<link rel="stylesheet" href="FormStyle.css">	
 <style>
 table, th, td {
     border: 1px solid black;
@@ -81,12 +82,6 @@ table, th, td {
 				document.getElementById("res").innerHTML="Redeemed Successfully";
 			else
 				document.getElementById("res").innerHTML="OOPS! Redemption Failed";
-		 
-		 
-		
-		 
-		 
-		
 
 	 
 		
@@ -103,18 +98,22 @@ table, th, td {
 
 <body>
 	
-		 <u><span style='font-weight:bold;font-size:25px;margin-left:500px;float:center;'>Redeem Reward Points</span></u>
- 
-		 <span style='float:right;display:inline-block;'>xxxxxxxx</span><br><br><br>
-
-		<div align='center'>		
+		<div class="introduction">
+			<h1 class="pageLabel">Redeem Reward Points</h1>
+		</div>
+		
+		 
+	<div  class="container" >
+		<div align='center' style='color:black;'>		
+<span style='color:black;float:right;display:inline-block;'>xxxxxxxx</span> 
  			
-			 Account Number    :  10000
-			<br><br><br>
-		 <form> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Points Available &ensp;&ensp;&ensp;:&ensp;  <input  style="border:none" id="Availpts" type="text" readonly value=2500></form> 
+			 <p style='color:black;'>Account Number    :  10000</p>
+			 
+		 <form style='color:black;'>Points Available &ensp;&ensp;&ensp;:&ensp; <input  style="border:none;width:100px;" id="Availpts" type="text" readonly value=2500> 
+</form> 
 
-			<br><br><br>
-
+			<br><br><br></div>
+			<div class="tabular" align='center'>
 			<table id="addTable">
 			<tr>
 				<th>&ensp;Product Description&ensp;</th>
@@ -138,16 +137,11 @@ table, th, td {
 				<td id="f2" onclick="fun2()">&ensp;&ensp;</td>
 		
 			</tr>
-			 
-			 
-
-
-	
 		</table>
-
 		</div>
+		
 		<br>
-			<form style='margin-left:15cm'>Total Points Redeemed :<input type='text'   id='tot'   ></form>			
+			<form style='margin-left:15cm'>Total Points Redeemed :<input type='text' width="10px" id='tot'   ></form>			
 				
 		<br>
 
@@ -161,7 +155,7 @@ table, th, td {
 		
 		</div>	
 		 
-
+</div>
 		 
 
  
