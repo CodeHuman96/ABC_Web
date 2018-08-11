@@ -11,7 +11,53 @@ form
 {
 	padding-left: 300px;
 }
+output,input
+{
+	margin-left: 100px;
+}
+output.usrname
+{
+	margin-left: 65px;
+}
+output.DOB
+{
+	margin-left: 103px;
+}
+output.phno
+{
+	margin-left: 40px;
+}
+input.add
+{
+	margin-left:83px;
+}
+input.city
+{
+	margin-left: 107px;
+}
+input.pin
+{
+	margin-left: 82px;
+}
+input.country
+{
+	margin-left: 80px;
+}
+output.pan
+{
+	margin-left: 84px;
+}
+input.email
+{
+	margin-left: 92px;
+}
+label.red
+{
+	color:red;
+	padding-left: 80px;
+}
 div.last
 {
+	padding-top: 20px;
 	padding-left: 400px;
 }
