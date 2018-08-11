@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+<link rel="stylesheet" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" href="../CustomerOne/FormStyle.css">
+<script>
+function warn(){
+if ( document.getElementsByName('status')[0].value == "rejected" && document.getElementById('responsearea').value=="")
+{
+return confirm("Please enter reason for rejection");
+}
+else
+return confirm('Form has been successfully submitted');
+
+}
+</script>
+
+</head>
+
+
+<body>
+
+<form  onsubmit="warn() ">
+<fieldset>
+<div class="introduction"><h1>Query Response </h1></div>
+
+<br><br>
+<div class="container">
+
+
+Customer Name:
+<input type="text" name="customername">
+<br></br>
+
+
+Query received on:   
+<input type="text" name="querydate">
+<br></br>
+
+Query:
+<br></br>
+<textarea rows="4" cols="50" align="right" id="query">
+</textarea>
+<br></br>
+
+
+
+<span style="color:red">*</span>Status:
+<select name="status">
+<option value="pending">Pending</option>
+  <option value="rejected">Rejected</option>
+  
+  <option value="processed">Processed</option>
+ </select>
+<br></br>
+
+
+
+
+Response :
+<br></br>
+<textarea rows="4" cols="50" align="right" id="responsearea">
+</textarea>
+<br></br>
+
+
+<input  type="submit" value="Submit"> 
+<!--<button type="button" onclick="warn()">  Submit</button>-->
+<input type="reset">
+<button type="button" onclick="location.href=''">Back </button>
+</div>
+</fieldset>
+</form>
+
+
+
+
+
+</body>
+</html> 

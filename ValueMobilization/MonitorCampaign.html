@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
+
+<script>
+function tableDisplay() {
+
+    var x0=document.getElementById(0);
+    var x1=document.getElementById(1);
+    var x2=document.getElementById(2);
+
+    var y = document.getElementById("camp").selectedIndex;
+    var x = document.getElementById(y);
+
+    x0.style.display = "none"
+    x1.style.display = "none"
+    x2.style.display = "none"
+    x.style.display = "table";
+}
+</script>
+
+<style>
+table{
+ width:100%;
+text-align:center;
+display:none;
+}
+table, th, td {
+   
+    border: 1px solid black;
+    
+}
+</style>
+
+</head>
+
+
+<body>
+<h1>Monitor Campaign Effectiveness</h1>
+<form class="container">
+Campaign:
+<select name="campaign" id="camp">
+<option value="C1">C1</option>
+<option value="C2">C2</option>
+<option value="C3">C3</option>
+</select>
+</form>
+<button onclick="tableDisplay()">Search</button>
+
+
+<br><br><br>
+<br><br><br>
+<form class="container">
+<span>Total Prospects:</span>
+<span>3</span>
+<br><br>
+<span>Unassigned Prospects:</span>
+<span>0</span>
+</form>
+<br><br><br>
+
+<table class="tabular" id="0">
+
+<tr>
+<th>Sales Agent</th>
+<th>Assigned Prospects</th>
+<th>Follow Up</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>Agent1</td>
+<td>Sampada</td>
+<td>Active</td>
+<td>Committed</td>
+</tr>
+
+<tr>
+<td>Agent1</td>
+<td>Karthiga</td>
+<td>Active</td>
+<td>Committed</td>
+</tr>
+
+<tr>
+<td>Agent1</td>
+<td>Anshuman</td>
+<td>Inactive</td>
+<td>Not Committed</td>
+</tr>
+
+</table>
+
+<table class="tabular" id="1">
+
+<tr>
+<th>Sales Agent</th>
+<th>Assigned Prospects</th>
+<th>Follow Up</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>Agent2</td>
+<td>Sampada</td>
+<td>Active</td>
+<td>Committed</td>
+</tr>
+
+<tr>
+<td>Agent2</td>
+<td>Karhtiga</td>
+<td>Active</td>
+<td>Committed</td>
+</tr>
+
+<tr>
+<td>Agent2</td>
+<td>Anshuman</td>
+<td>Inactive</td>
+<td>Not Committed</td>
+</tr>
+
+</table>
+
+
+<table class="tabular" id="2">
+
+<tr>
+<th>Sales Agent</th>
+<th>Assigned Prospects</th>
+<th>Follow Up</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>Agent3</td>
+<td>Sampada</td>
+<td>Active</td>
+<td>Committed</td>
+</tr>
+
+<tr>
+<td>Agent3</td>
+<td>Viraja</td>
+<td>Active</td>
+<td>Committed</td>
+</tr>
+
+<tr>
+<td>Agent3</td>
+<td>Anshuman</td>
+<td>Inactive</td>
+<td>Not Committed</td>
+</tr>
+
+</table>
+
+
+
+</body>
+
+</html>

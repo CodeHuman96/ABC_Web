@@ -11,24 +11,30 @@ function goToPage(url) {
 </script>
 <body>
 	<div class="introduction">
-		<h2 class="pageLabel">Welcome to Customer One Main Menu<h2>
+		<h1 class="pageLabel">Welcome to Customer One Main Menu<h1>
 	</div>
 	<div class="Options">
-		<div class="ChOne" onclick="goToPage('DeDuplication.html')">
+		<div class="Ch" onclick="goToPage('DeDuplication.html')">
 			<h3 class="DeDuplication_title" title="DeDuplication">
 				DeDuplication
 			</h3>
 		</div>
-		<div class="ChTwo" onclick="goToPage('CustomerSearch.html')">
+		<div class="Ch" onclick="goToPage('CustomerSearch.html')">
 			<h3 class="CustomerSearch" title="CustomerSearch">
 				Customer Search
 			</h3>
 		</div>
-		<div class="ChThree" onclick="goToPage('AddNewCustomer.html')">
+		<div class="Ch" onclick="goToPage('AddNewCustomer.html')">
 			<h3 class="AddNew_title" title="AddNewCustomer" >
 				Add New Customer
 			</h3>
 		</div>
 	</div>
+	<!--div class="info">
+		<div id="hiddenText"><p>This screen is used to de-duplicate customer data from account records.We need to identify the accounts belonging to the same customer based on name,
+address, date of birth and PAN number. Such accounts are to be marked for de-duplication to create customer records with customer ID.</p></div>
+		<div class="info2"></div>
+		<div class="info3"></div>
+	</div-->
 </body>
 </html>
