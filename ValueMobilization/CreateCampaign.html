@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<h1 align=center>Create a New Campaign</h1>
+
+<form onsubmit="return confirm('Campaign Created')">
+<fieldset>
+<legend>Campaign Details</legend>
+
+<br>
+
+  <span style="color:red;">*</span>
+  <span>Campaign Title :</span>
+  <input type="text" name="ctitle" required>
+
+<br><br>
+
+  <span style="color:red;">*</span>
+  <span>Campaign Description:</span><br>
+  <textarea rows="4" cols="50" name="cdesc" required></textarea>
+
+<br><br><br>
+
+<ins>Campaign Criteria</ins>
+<br><br>
+
+  Average Balance>:
+  <input type="number" name="avgBal">
+
+<br><br>
+  Age of Relationship>:
+  <input type="number" name="age">
+
+<br><br>
+
+  Profession:
+  <input type="text" name="profession">
+
+<br><br>
+<br><br>
+
+  <span style="color:red;">*</span>
+  <span>Valid From :</span>
+  <input type="date" name="from" required>
+
+<br><br>
+
+  <span style="color:red;">*</span>
+  <span>Valid To:</span>
+  <input type="date" name="to" required>
+
+<br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+
+
+
+
+
+</form>
+<br><br>
+
+<form action="CampaignManagement.html">
+<button>Back</button>
+</form>
+
+</fieldset>
+
+</body>
+
+</html>

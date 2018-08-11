@@ -1,0 +1,69 @@
+ <!DOCTYPE html>
+<html>
+
+
+
+<head>
+<script>
+function warn(){
+if ( document.getElementsByName('status')[0].value == "rejected" && document.getElementById('responsearea').value=="")
+{
+return confirm("Please enter reason for rejection");
+}
+else
+return confirm('Form has been successfully submitted');
+
+}
+</script>
+
+</head>
+
+
+<body>
+
+<form  onsubmit="warn() ">
+<fieldset>
+<h1 style="text-align:center;">Lost or Stolen Card </h1>
+
+
+Card number:
+<input type="text" name="cardnumber">
+<br></br>
+
+
+Card type:   
+<input type="text" name="cardtype">
+<br></br>
+
+
+<span style="color:red">*</span>Status:
+<select name="status">
+  <option value="rejected">Rejected</option>
+  <option value="pending">Pending</option>
+  <option value="processed">Processed</option>
+ </select>
+<br></br>
+
+
+
+
+Response Area:
+<br></br>
+<textarea rows="4" cols="50" align="right" id="responsearea">
+</textarea>
+<br></br>
+
+
+<input  type="submit" value="Submit"> 
+<!--<button type="button" onclick="warn()">  Submit</button>-->
+<input type="reset">
+<button type="button" onclick="location.href=''">Back </button>
+</fieldset>
+</form>
+
+
+
+
+
+</body>
+</html> 

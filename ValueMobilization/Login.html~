@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+</head> 
+
+
+<body>
+
+<h1 class="introduction">Login</h1>
+
+<form>
+<fieldset>
+<legend>Login Credentials</legend>
+
+ <span style="color:red;">*</span>
+ <span>Username:</span>
+ <input type="text" name="username" required>
+
+<br><br>
+
+ <span style="color:red;">*</span>
+ <span>Password:</span>
+ <input type="password" name="psw" required>
+
+<br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</fieldset>
+
+</form>
+
+</body>
+
+</html>
