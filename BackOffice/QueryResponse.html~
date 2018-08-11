@@ -6,6 +6,7 @@
 <head>
 <link rel="stylesheet" href="../CustomerOne/PageStyling.css">
 <link rel="stylesheet" href="../CustomerOne/FormStyle.css">
+<title> Query Response </title>
 <script>
 function warn(){
 if ( document.getElementsByName('status')[0].value == "rejected" && document.getElementById('responsearea').value=="")
@@ -50,9 +51,8 @@ Query:
 
 <span style="color:red">*</span>Status:
 <select name="status">
-<option value="pending">Pending</option>
   <option value="rejected">Rejected</option>
-  
+  <option value="pending">Pending</option>
   <option value="processed">Processed</option>
  </select>
 <br></br>
