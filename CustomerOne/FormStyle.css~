@@ -55,7 +55,7 @@ input[type=date], select, textarea {
 
 
 
-input[type=submit,button] {
+input[type=submit] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
