@@ -13,7 +13,7 @@ var p=document.getElementById("psw");
 
 if(u.value=="test" && p.value=="psw")
 {
-	window.location.href("../CustomerOne.EmployeeMainMenu.html");
+	window.location.href="../CustomerOne/EmployeeMainMenu.html"
 }
 
 else
@@ -31,7 +31,7 @@ else
 <br><br><br><br>
 
 
-<form class="container" onsubmit="validate()">
+<form class="container">
 <fieldset>
 <legend>Login Credentials</legend>
 
@@ -47,7 +47,7 @@ else
 
 <br><br>
 
-<button onclick=validate()>Submit</button>
+<input type="button" value="Submit" onclick=validate()>
 <input type="reset" value="Reset">
 
 </fieldset>
