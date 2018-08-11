@@ -36,8 +36,14 @@ table, th, td {
 
 
 <body>
-<h1 align=center>Assign Prospects to Sales Agents</h1>
 
+<ul>
+<li><a href="CampaignManagement.html">Back</a></li> 
+<li><a href="Login.html">Logout</a></li>
+</ul>
+<br>
+<h1 class="introduction">Assign Prospects to Sales Agents</h1>
+<br>
 <form class= "container">
 
 Campaign:
@@ -50,12 +56,12 @@ Campaign:
 
 <button onclick="tableDisplay()">Search</button>
 
-
+<br><br>
 
 
 
 <form class= "container" onsubmit="return confirm('Prospects Assigned')">
-<br>
+
 <table class="tabular" id="0" style="display:none ">
 
 <tr>
