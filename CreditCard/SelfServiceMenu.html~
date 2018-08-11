@@ -20,8 +20,8 @@ function goToPage(url) {
 
 		 
 
-		<a  href="CustLogin.html" style='background:black;color:blue;float:right;'>SignOut</a></div>
-		
+		<!--<b><a  href="CustLogin.html" style='color:blue;float:right;'>SignOut</a></b>-->
+		<button style='float:right' onclick="../SelfService">Home</button>
 		 
 		<div class="Options">
 		<div class="Ch" onclick="goToPage('Redeem.html')">
