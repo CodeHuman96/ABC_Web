@@ -53,7 +53,7 @@ Campaign:
 <option value="C3">C3</option>
 </select>
 </form>
-
+<br>
 <button onclick="tableDisplay()">Search</button>
 
 <br><br>
