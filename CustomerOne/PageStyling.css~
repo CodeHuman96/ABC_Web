@@ -1,4 +1,4 @@
-.
+
 .introduction {
 	list-style-type: none;
     margin: 0;
@@ -43,7 +43,7 @@ body {
 	
 background-image: url("../Pictures/BackGround1.png");
 background-size: cover;
-    background-position: 5% 15%;
+    background-position: 0% 15%;
 	   background-color: #cccccc;
 	 background-repeat: no-repeat;
 	
