@@ -2,62 +2,229 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="ListOfCustomerRequests.css">
+
+		<script type="text/javascript" src="ListOfCustomerRequests.js"></script>	
 	</head>
 <body>
 
 	<u><h2>List of Customer Requests</h2></u>
 	<br>
 	<br>
-
-	<table align='center' >
-		<tr>
-			<td>
-				<label>Request Type:</label>			
+	
+	
+	<table align='center' id="table1">
+		<tr id='table1'>
+			<td id='table1'>
+				<label>Request Type:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</label>			
 			</td>
 			
-			<td>
-				<select name="Req Type">
-    					<option value="Cheque Book" selected>Cheque Book</option>
+			<td id='table1'>
+				<select name="Req Type" id="Req">
+    					<option value="Cheque Book">Cheque Book</option>
     					<option value="Lost/Stolen Card">Lost/Stolen Card</option>
   				</select>
 			</td>				
 		</tr>
 		
-		<tr>
-			<td>
-				<label>Status:</label> 
+		<tr id='table1'>
+			<td id='table1'>
+				<label>Status:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</label> 
 			</td>
 			
-			<td>
-				<select name="Status">
-					<option value="Pending" selected>Pending</option>
+			<td id='table1'>
+				<select name="Status" id="status">
+					<option value="Pending">Pending</option>
 					<option value="Rejected">Rejected</option>
 					<option value="Processed">Processed</option>
 				</select>
 			</td>
 		</tr>
 	</table>
-  	<!--<label>Request Type:</label>
-    		<select name="Req Type">
-    			<option value="Cheque Book" selected>Cheque Book</option>
-    			<option value="Lost/Stolen Card">Lost/Stolen Card</option>
-  		</select>
+  	
+	<button style='float:right' onclick="tableDisplay()">Submit</button>
 	<br>
 	<br>
-
-	<label>Status:</label> 
-		<select name="Status">
-			<option value="Pending" selected>Pending</option>
-			<option value="Rejected">Rejected</option>
-			<option value="Processed">Processed</option>
-		</select>
 	<br>
-	<br>-->
-  <input type="submit" value="Submit">
-</form> 
+	<br>
+	
+	
+	<!--table0-->
+	<table id="0" style="display:none" align='center'>
+		<tr>
+			<th>Request Type</th>
+			<th>Account Number</th>
+			<th>Account Type</th>
+			<th>Customer Name</th>
+			<th>Request Date</th>
+			<th>Status</th>
+		</tr>
+		<tr>
+			<td>Cheque Book</td>
+			<td>1234567890</td>
+			<td>Savings</td>
+			<td>Mathew Perry</td>
+			<td>2018-06-21</td>
+			<td>Pending</td>
+		</tr>
+		<tr>
+			<td>Cheque Book</td>
+			<td>123456456</td>
+			<td>Current</td>
+			<td>Jensen Ackles</td>
+			<td>2018-01-11</td>
+			<td>Pending</td>
+		</tr>
+	</table>
+	
+	<!--table1-->
+	<table id="1" style="display:none" align='center'>
+		<tr>
+			<th>Request Type</th>
+			<th>Account Number</th>
+			<th>Account Type</th>
+			<th>Customer Name</th>
+			<th>Request Date</th>
+			<th>Status</th>
+		</tr>
+		<tr>
+			<td>Cheque Book</td>
+			<td>1234785960</td>
+			<td>Current</td>
+			<td>Kenny Thomas</td>
+			<td>2017-12-21</td>
+			<td>Rejected</td>
+		</tr>
+		<tr>
+			<td>Cheque Book</td>
+			<td>1237589643</td>
+			<td>Savings</td>
+			<td>Neha Gupta</td>
+			<td>2017-04-15</td>
+			<td>Rejected</td>
+		</tr>
+	</table>
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+	
+	<!--table2-->
+	<table id="2" style="display:none" align='center'>
+		<tr>
+			<th>Request Type</th>
+			<th>Account Number</th>
+			<th>Account Type</th>
+			<th>Customer Name</th>
+			<th>Request Date</th>
+			<th>Status</th>
+		</tr>
+		<tr>
+			<td>Cheque Book</td>
+			<td>12346749851</td>
+			<td>Current</td>
+			<td>Vijai Veraragavan</td>
+			<td>2018-02-01</td>
+			<td>Processed</td>
+		</tr>
+		<tr>
+			<td>Cheque Book</td>
+			<td>1231456312</td>
+			<td>Savings</td>
+			<td>Shivani Rajendrakumar</td>
+			<td>2017-11-15</td>
+			<td>Processed</td>
+		</tr>
+	</table>
 
+	<!--table3-->
+	<table id="3" style="display:none" align='center'>
+		<tr>
+			<th>Request Type</th>
+			<th>Account Number</th>
+			<th>Account Type</th>
+			<th>Customer Name</th>
+			<th>Request Date</th>
+			<th>Status</th>
+		</tr>
+		<tr>
+			<td>Lost/Stolen Card</td>
+			<td>334578962145</td>
+			<td>Current</td>
+			<td>San Anderson</td>
+			<td>2017-05-12</td>
+			<td>Pending</td>
+		</tr>
+		<tr>
+			<td>Lost/Stolen Card</td>
+			<td>456231059874</td>
+			<td>Savings</td>
+			<td>Monica Geller</td>
+			<td>2017-04-25</td>
+			<td>Pending</td>
+		</tr>
+	</table>
+	
+	<!--table4-->
+	<table id="4" style="display:none" align='center'>
+		<tr>
+			<th>Request Type</th>
+			<th>Account Number</th>
+			<th>Account Type</th>
+			<th>Customer Name</th>
+			<th>Request Date</th>
+			<th>Status</th>
+		</tr>
+		<tr>
+			<td>Lost/Stolen Card</td>
+			<td>1230452378</td>
+			<td>Savings</td>
+			<td>John Winchester</td>
+			<td>2017-01-21</td>
+			<td>Rejected</td>
+		</tr>
+		<tr>
+			<td>Lost/Stolen Card</td>
+			<td>1231463217</td>
+			<td>Savings</td>
+			<td>Shahil Shah</td>
+			<td>2016-04-15</td>
+			<td>Rejected</td>
+		</tr>
+	</table>
+	
+	<!--table5-->
+	<table id="5" style="display:none" align='center'>
+		<tr>
+			<th>Request Type</th>
+			<th>Account Number</th>
+			<th>Account Type</th>
+			<th>Customer Name</th>
+			<th>Request Date</th>
+			<th>Status</th>
+		</tr>
+		<tr>
+			<td>Lost/Stolen Card</td>
+			<td>1234412578</td>
+			<td>Current</td>
+			<td>Sashi Yadav</td>
+			<td>2018-03-14</td>
+			<td>Processed</td>
+		</tr>
+		<tr>
+			<td>Lost/Stolen Card</td>
+			<td>1237563745</td>
+			<td>Savings</td>
+			<td>Karthiga Mohan</td>
+			<td>2017-10-05</td>
+			<td>processed</td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	
+	<form  action="BackOfficeMenu.html" style ="text-align:right;">
+			<button id='b1'>Back</button>
+	</form>
+
+  
 </body>
 </html>
 
