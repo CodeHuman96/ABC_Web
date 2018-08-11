@@ -1,0 +1,42 @@
+.introduction {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: -5px 12px;
+    text-decoration: none;
+}
+.Options {
+	margin: auto;
+    border: 0px solid green;
+    padding: 10px;	
+}
+.Options .Ch{
+    background-color: #4CAF50; /* Green */
+    border: 2px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+	margin-left: auto;
+    margin-right: auto;	
+}
+.Options .Ch:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+.Options .Ch:hover {
+    background-color: #3e8e41;
+}
+body {
+   background-image: url("home/test/Desktop/ABC_Web/Pictures/BackGround.jpg");
+   background-color: #cccccc;
+}
