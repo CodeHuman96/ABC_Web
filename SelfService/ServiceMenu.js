@@ -18,3 +18,7 @@ function viewser()
 {
 	window.location.href="ViewRequestStatus.html"
 }
+function home()
+{
+	window.location.href="customermenu.html"
+}
