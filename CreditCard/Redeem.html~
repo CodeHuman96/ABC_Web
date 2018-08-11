@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+<style>
+table, th, td {
+    border: 1px solid black;
+     border-collapse: collapse;
+}
+.wrapper {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+</style>
+
+<script>
+	function fun1()
+	{
+
+		alert(document.getElementById("q1").value);
+		var qty=document.getElementById("q1").value;
+		var req=document.getElementById("r1");
+		var prod=Number(qty)*Number(req);
+
+		alert(qty);
+
+		var avail=document.getElementById("Availpts").value;
+		if(prod<Number(avail))
+		{
+			document.getElementById("res").innerHTML="Success";
+		}
+		else
+			document.getElementById("res").innerHTML="Failed";
+
+		/*var row=document.getElementById("row1").value
+		var Cells = row.getElementsByTagName("td");
+		alert(Cells[0].innerText);*/
+		
+		
+	}
+	function sub()
+	{
+		document.getElementById("res").innerHTML="Submitted Successfully";
+	}
+	
+</script>
+
+<body>
+	
+		 <u><span style='font-weight:bold;font-size:25px;margin-left:500px;float:center;'>Redeem Reward Points</span></u>
+ 
+		 <span style='float:right;display:inline-block;'>xxxxxxxx</span><br><br><br>
+
+		<div align='center'>		
+ 			
+			 Account Number    :  10000
+			<br><br><br>
+		 <form> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Points Available &ensp;&ensp;&ensp;:&ensp;  <input  style="border:none" id="Availpts" type="text" readonly value=2500></form> 
+
+			<br><br><br>
+
+			<table>
+			<tr>
+				<th>&ensp;Product Description&ensp;</th>
+				<th>&ensp;Points Needed&ensp;</th>
+				<th>&ensp;Quantity&ensp;</th>
+				<th>&ensp;Points Redeemed&ensp;</th> 
+			</tr>
+			<tr id="row1">
+				<td>&ensp;Mobile&ensp;</td>
+				<td id="r1">&ensp;1500&ensp;</td>
+				<td id="q1"contenteditable='true'>&ensp;&ensp;</td>
+				<td id="f1" onclick="fun1()">&ensp;&ensp;</td>
+		
+			</tr>
+			 
+
+
+	
+		</table>
+
+		</div>
+
+		<p id="res">Result Here</p>
+		
+		<div  class="wrapper" align='center'>
+
+			<span> <button onclick="sub()">Submit</button></span>
+			<span><form action="List.html"><button>Back</button></form> </span> 
+			
+		
+		</div>	
+		 
+
+		 
+
+ 
+</body>
+
+</head>
+</html>
