@@ -70,6 +70,8 @@ body {
 .tabular td, .tabular th {
     border: 0px solid #ddd;
     padding: 8px;
+	width: 100%;
+    
 }
 
 .tabular tr:nth-child(even){	

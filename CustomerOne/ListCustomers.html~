@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<title> Customer One System </title>
+<link rel="stylesheet" type="text/css" href="PageStyling.css">
+</head>
+<body>
+<div class="introduction">
+	<h2>Customers</h2>
+</div>
+<div class="tabular">
+<table>
+		<tr>
+			<th>&nbsp;Name&nbsp;</th>
+	  	<th>&ensp;Customer ID&ensp;</th>
+			<th>&ensp;DOB&ensp;</th>
+			<th>&ensp;Email ID&ensp;</th>
+	  	<th>&ensp;PAN&ensp;</th>
+			<th>&ensp;Contact No&ensp;</th>
+			
+		</tr>
+		<tr>
+			<td>&ensp;Anshuman&ensp;</td>
+			<td>&ensp;CUS000&ensp;</td>
+			<td>&ensp;29/06/1996&ensp;</td>
+			<td>&ensp;anshuman@gmail.com&ensp;</td>
+			<td>&ensp;null&ensp;</td>
+			<td>&ensp;9999988877&ensp;</td>
+		</tr>
+		<tr>
+			<td>&ensp;Kartihga&ensp;</td>
+			<td>&ensp;CUS001&ensp;</td>
+			<td>&ensp;05/09/1996&ensp;</td>
+			<td>&ensp;kartigha@gmail.com&ensp;</td>
+			<td>&ensp;null&ensp;</td>
+			<td>&ensp;9999988800&ensp;</td>
+			
+		</tr>
+		<tr>
+			<td>&ensp;Nischala&ensp;</td>
+			<td>&ensp;CUS002&ensp;</td>
+			<td>&ensp;21/01/1997&ensp;</td>
+			<td>&ensp;nicshala@gmail.com&ensp;</td>
+			<td>&ensp;null&ensp;</td>
+			<td>&ensp;9999988501&ensp;</td>
+		</tr>
+		<tr>
+			<td>&ensp;Veeraja&ensp;</td>
+			<td>&ensp;CUS003&ensp;</td>
+			<td>&ensp;19/05/1996&ensp;</td>
+			<td>&ensp;sriveeraja@gmail.com&ensp;</td>
+			<td>&ensp;null&ensp;</td>
+			<td>&ensp;9999980000&ensp;</td>
+		</tr>
+		
+		
+</table>
+</div>
+</body>
+</html>
