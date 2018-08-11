@@ -11,7 +11,7 @@
 <body>
 <h1 align=center>Create a New Campaign</h1>
 
-<form class="container" onsubmit="return confirm('Campaign Created')">
+<form class="tabular" onsubmit="return confirm('Campaign Created')">
 <fieldset>
 <legend>Campaign Details</legend>
  
@@ -70,7 +70,7 @@
 </form>
 <br><br>
 
-<form class="container" action="CampaignManagement.html">
+<form class="tabular" action="CampaignManagement.html">
 <button>Back</button>
 </form>
 
