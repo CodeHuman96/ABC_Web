@@ -9,6 +9,9 @@
 </head>
 
 <style>
+input[type=radio]{
+    margin-left:50px;
+}
 input[type=reset],input[type=button] {
     background-color: #4CAF50;
     color: white;

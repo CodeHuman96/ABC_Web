@@ -17,15 +17,7 @@ button{
     border-radius: 4px;
     cursor: pointer;
 }
-button.add{
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left:300px;
-}
+
 button.back{
     background-color: #4CAF50;
     color: white;
@@ -39,7 +31,7 @@ button.back{
 </style>
 
 <div class="introduction">
-	<h1> List of Billers</h1>
+	<h2> List of Billers</h2>
 </div>
 <br><br><br>	
 
@@ -71,8 +63,8 @@ button.back{
   </tr>
 </table> 
 <br><br>
-<button class="add"  type="button" onclick="add()">Add</button>
-<button class="back" type="button" onclick="back()">Back</button>
+<input type="button" class="add"  value="Add" type="button" onclick="add()">
+<button class="back" type="button" onclick="back()"> Back</button>
 </div>
 
 </body>

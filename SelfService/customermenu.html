@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<head>
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/FormStyle.css">
+
+</head>
+
+<script>
+function goToPage(url) {
+    window.location.href = url;
+}
+</script>
+
+<style>
+ol {
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: -5px 12px;
+    text-decoration: none;
+}
+
+ol li {
+    float: left;
+}
+
+ol li a {
+    display: block;    
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+</style>
+<ol>
+  <li><a href="/home/test/ABC_Web/SelfService/menu.html"><b>BillPayment Menu</b></a></li>
+
+  <li><a href="/home/test/ABC_Web/SelfService/index.html">Home</a></li>
+  <li><a href="/home/test/html/login.html">Log Off</a></li>
+</ol>
+
+<div class="Options">
+		<div class="Ch" onclick="goToPage('ServiceMenu.html')">
+			<h3 class="customerselfservice_title" title="customer selfservice">
+				customer self service
+			</h3>
+		</div>
+		<div class="Ch" onclick="goToPage('../CreditCard/SelfServiceMenu.html')">
+			<h3 class="SelfServiceMenu" title="SelfServiceMenu">
+				Credit-Card Self Service
+			</h3>
+		</div>
+		<div class="Ch" onclick="goToPage('menu.html')">
+			<h3 class="billPayment" title="billpayment" >
+				Bill Payment Service
+			</h3>
+		</div>
+</div>
+
+
+</body>
+</html>
