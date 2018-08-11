@@ -3,30 +3,51 @@
 
  <head>
 <link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
+
+<script>
+function validate()
+{
+var u=document.getElementById("username");
+var p=document.getElementById("psw");
+
+if(u.value=="test" && p.value=="psw")
+{
+	window.location.href("../CustomerOne.EmployeeMainMenu.html");
+}
+
+else
+{
+ window.alert("Invalid username or password");
+}
+}
+</script>
 </head> 
 
 
 <body>
 
 <h1 class="introduction">Login</h1>
+<br><br><br><br>
 
-<form>
+
+<form class="container" onsubmit="validate()">
 <fieldset>
 <legend>Login Credentials</legend>
 
  <span style="color:red;">*</span>
  <span>Username:</span>
- <input type="text" name="username" required>
+ <input type="text" id="username" required>
 
 <br><br>
 
  <span style="color:red;">*</span>
  <span>Password:</span>
- <input type="password" name="psw" required>
+ <input type="password" id="psw" required>
 
 <br><br>
 
-<input type="submit" value="Submit">
+<button onclick=validate()>Submit</button>
 <input type="reset" value="Reset">
 
 </fieldset>
