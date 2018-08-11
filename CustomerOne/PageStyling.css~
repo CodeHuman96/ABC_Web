@@ -12,7 +12,7 @@
 }
 .Options {
 	margin: auto;
-    border: 3px solid green;
+    border: 0px solid green;
     padding: 10px;	
 }
 .Options .Ch{
@@ -37,6 +37,6 @@
     background-color: #3e8e41;
 }
 body {
-   background-image: url("home/test/Desktop/ABC_Web/Pictures/BackGround.jpg");
+   background-image: url("home/test/ABC_Web/Pictures/BackGround.jpg");
    background-color: #cccccc;
 }
