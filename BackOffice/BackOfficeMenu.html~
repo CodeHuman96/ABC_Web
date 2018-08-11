@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+
+	<body>
+		<h2 style ="text-align:center;">Back Office Menu</h2>
+		<form name="BOMenu" action>
+		<input type="button" value="Queries" />
+		<br>
+		<input type="button" value="Bill Payment" />
+		<br>
+		<input type="button" value="Customer Requests" />
+		<br>
+		
+		<input type="button" value="Signout" />
+		<br>
+		</form>
+	</body>
+</html>
