@@ -1,4 +1,4 @@
-.
+
 .introduction {
 	list-style-type: none;
     margin: 0;
@@ -39,25 +39,16 @@
 		
 }
 body {
-<<<<<<< HEAD
-   background-image: url("../Pictures/BackGround1.png");
-   background-color: #cccccc;
-=======
    
 	
 background-image: url("../Pictures/BackGround1.png");
 background-size: cover;
     background-position: 0% 15%;
 	   background-color: #cccccc;
->>>>>>> a29569ae0330d634b86e4d4ac1de4dae85baa8fa
 	 background-repeat: no-repeat;
 	
    height: 100%; 
-<<<<<<< HEAD
-   size: cover;
-=======
    
->>>>>>> a29569ae0330d634b86e4d4ac1de4dae85baa8fa
 }
 /*.info{
 	position: fixed;
@@ -75,7 +66,7 @@ background-size: cover;
 		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     margin: auto;
-    width: 100%;
+    
     padding: 10px;
 		padding-top: 50px;
 		padding-left: 0px;
@@ -83,16 +74,13 @@ background-size: cover;
 	table-layout: auto;
 
 }
-<<<<<<< HEAD
+
 .tabular td, .tabular th {
     border: 0px solid #ddd;
     padding: 8px;
-	width: 50%;
+	 
     
 }
-=======
-
->>>>>>> a29569ae0330d634b86e4d4ac1de4dae85baa8fa
 
 .tabular tr:nth-child(even){	
 	background-color: #f2f2f2;
@@ -119,7 +107,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 
 }
 
@@ -139,13 +127,6 @@ li a {
 a:hover {
     background-color: green;
 }
-
-
-
-
-
-
-
 
 
 
