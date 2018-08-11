@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<title > Query Respons </title>
+<title > List of Bill Payments</title>
 <link rel="stylesheet" href="../CustomerOne/PageStyling.css">
 <script>
 function sub()

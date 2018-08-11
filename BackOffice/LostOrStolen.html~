@@ -4,6 +4,7 @@
 
 
 <head>
+<title> Lost or Stolen Card </title>
 <link rel="stylesheet" href="../CustomerOne/PageStyling.css">
 <script>
 function warn(){
