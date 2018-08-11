@@ -60,7 +60,7 @@ body {
 		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     margin: auto;
-    width: 100%;
+    
     padding: 10px;
 		padding-top: 50px;
 		padding-left: 0px;
@@ -70,7 +70,7 @@ body {
 .tabular td, .tabular th {
     border: 0px solid #ddd;
     padding: 8px;
-	width: 100%;
+	 
     
 }
 

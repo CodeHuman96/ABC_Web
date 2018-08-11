@@ -40,13 +40,9 @@
 body {
    background-image: url("../Pictures/BackGround1.png");
    background-color: #cccccc;
-<<<<<<< HEAD
-   background-repeat: no-repeat;
-=======
 	 background-repeat: no-repeat;
    height: 100%; 
    size: cover;
->>>>>>> 60cd5ceaf86101dbd68708dfde9a84fda65b8cc8
 }
 /*.info{
 	position: fixed;
@@ -74,7 +70,7 @@ body {
 .tabular td, .tabular th {
     border: 0px solid #ddd;
     padding: 8px;
-	width: 100%;
+	width: 50%;
     
 }
 
