@@ -3,15 +3,29 @@
 <head>
 <title>Service Request</title>
 <script src="selfservice.js" type="text/javascript"></script>
-  <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
-      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
 </head>
 <body>
-<h1 align="center">Service Request</h1>
-<div class="button">
-<button type="button" onclick="cheque()">Request a new cheque book</button><br><br></div>
-<div class="button">
-<button type="button" onclick="card()">Report lost stolen card</button><br><br></div>
-<div class="button"><button type="button" onclick="query()">Post a query</button><br></div>
+	<div class="introduction">
+		<h1 class="pageLabel">Service Request Menu<h1>
+	</div>
+	<div class="Options">
+		<div class="Ch" onclick="cheque()">
+			<h3 class="DeDuplication_title" title="DeDuplication">
+				Request cheque book
+			</h3>
+		</div>
+		<div class="Ch" onclick="card()">
+			<h3 class="CustomerSearch" title="CustomerSearch">
+				Lost/Stolen card
+			</h3>
+		</div>
+		<div class="Ch" onclick="query()">
+			<h3 class="AddNew_title" title="AddNewCustomer" >
+				Post a query
+			</h3>
+		</div>
+	</div>
 </body>
 </html>
