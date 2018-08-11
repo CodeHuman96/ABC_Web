@@ -26,10 +26,10 @@ return confirm('Form has been successfully submitted');
 
 <form  onsubmit="warn() ">
 <fieldset>
-<div class="introduction" class="container"><h1 >Cheque Book Request </h1></div>
+<div class="introduction" ><h1 >Cheque Book Request </h1></div>
 <br>
 
-
+<div class="container">
 Account number:
 <input type="text" name="accountnumber">
 <br></br>
@@ -72,7 +72,8 @@ Response Area:
 <input  type="submit" value="Submit"> 
 <!--<button type="button" onclick="warn()">  Submit</button>-->
 <input type="reset">
-<button type="button" onclick="location.href=''">Back </button>
+<button type="button" onclick="location.href='ListOfCustomerRequests'">Back </button>
+</div>
 </fieldset>
 </form>
 

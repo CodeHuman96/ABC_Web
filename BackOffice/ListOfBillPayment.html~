@@ -12,9 +12,11 @@ function sub()
 {var x1=document.getElementById("row");
 var x2=document.getElementById("row1");
 var x3=document.getElementById("row2");
+var x4=document.getElementById("row3");
 x1.style.display="none";
 x2.style.display="none";
 x3.style.display="none";
+x4.style.display="none";
 return alert('Action has been performed!');
 }
 
@@ -26,9 +28,9 @@ return alert('Action has been performed!');
 <body>
 <div class="introduction"><h1 > List of Customer Bill Payment Requests</h1></div>
 <br><br><br>
+<div class="container">
 
-<div class="tabular">
-<table id="table" width=100% >
+<table class="tabular" id="table" width=100% >
 
  <tr>
 
@@ -103,15 +105,35 @@ return alert('Action has been performed!');
  </tr>
 
 
+  <tr id="row3">
+ <td> 19</td>
+  <td>Sri Viraja</td>
+ <td> 69456A</td>
+ <td> 4500.00</td>
+ <td> 8970.00</td>
+ <td><div class="radio">
+                     <label><input type="radio"   name="optra">Force Pay</label>
+                 </div></td>
+ <td><div class="radio">
+                     <label disabled><input type="radio"   name="optra" disabled>Pay</label>
+                 </div></td>
+ <td><div class="radio">
+                     <label><input type="radio"  name="optra">Reject</label>
+                 </div></td>
+
+ </tr>
+
+
+
 
 
 </table>
-</div>
+
 
 <br><br><br>
 <button type="submit" onclick="sub()" >Submit</button>
 <button  align="right"  type="button" onclick="location.href=''">Back </button>
 
-
+</div>
 </body>
 </html> 

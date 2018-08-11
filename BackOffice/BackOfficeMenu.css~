@@ -1,0 +1,11 @@
+h2{
+	text-align:center;
+}
+div{
+	margin-left: 50px;
+	
+}
+button{
+	text-align:center;
+	width:170px;
+}
