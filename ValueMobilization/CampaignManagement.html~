@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+</head> 
 
+
+<script>
+function goToPage(url) {
+    window.location.href = url;
+}
+</script>
 <body>
 
 

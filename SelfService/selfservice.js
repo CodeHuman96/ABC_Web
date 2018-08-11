@@ -25,41 +25,40 @@ var value = e.options[e.selectedIndex].value;
 	if(value=="All")
 	{
 		data = [
-    ['Mazda', 2001, 2000, '2006-01-01'],
-    ['Pegeout', 2010, 5000, '2005-01-01'],
-    ['Honda Fit', 2009, 3000, '2004-01-01'],
-    ['Honda CRV', 2010, 6000, '2003-01-01'],];
+    ['2006-01-01','Cheque Book','Dispatched','Processed'],
+    ['2005-01-01','Cheque Book',' ','Pending'],
+    ['2004-01-01','Lost/Stolen Card','Dispatched','Processed'],
+    ['2003-01-01','Query','Contact Branch','Processed'],
+];
 	}
 	else if(value=="ChequeBook")
 	{
 		data = [
-    ['Pegeout', 2010, 5000, '2005-01-01'],
-    ['Honda Fit', 2009, 3000, '2004-01-01'],
-    ['Honda CRV', 2010, 6000, '2003-01-01'],
+      ['2006-01-01','Cheque Book','Dispatched','Processed'],
+    	['2005-01-01','Cheque Book',' ','Pending'],
 ];
 	}
 	else if(value=="Card")
 	{
 		data = [
-    ['Honda Fit', 2009, 3000, '2004-01-01'],
-    ['Honda CRV', 2010, 6000, '2003-01-01'],
+     ['2004-01-01','Lost/Stolen Card','Dispatched','Processed'],
 ];
 	}
 	else
 	{
 		data = [
-    ['Honda CRV', 2010, 6000, '2003-01-01'],
+    ['2003-01-01','Query','Contact Branch','Processed'],
 ];
 	}
 	$('#mytable').jexcel({
     data:data,
-    colHeaders: ['Description','Year','Price', 'Buy'],
-    colWidths: [ 200, 300, 100, 100 ],
+    colHeaders: ['Request Date','Request Type','Response','Status'],
+    colWidths: [ 200, 300, 260, 100 ],
     columns: [
-        { type: 'text', readOnly:true },
+        { type: 'text'},
         { type: 'text', },
         { type: 'text', },
-        { type: 'checkbox' },
+        { type: 'text' },
     ]
 });
 
