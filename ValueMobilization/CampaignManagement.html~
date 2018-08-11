@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+
+<script>
+function goToPage(url) {
+    window.location.href = url;
+}
+</script>
+</head> 
+
+
 
 <body>
 
+<ul>
+<li><a href="../CustomerOne/EmployeeMainMenu.html">Back</a></li> 
+<li><a href="Login.html">Logout</a></li>
+</ul>
 
 <div class="introduction">
 		<h2 class="pageLabel">Campaign Management<h2>

@@ -21,6 +21,11 @@ div.last
 {
 	padding-left: 450px;
 }
+label.red
+{
+	color:red;
+	padding-left: 80px;
+}
 button.Clear
 {
 	padding-left: 250px;

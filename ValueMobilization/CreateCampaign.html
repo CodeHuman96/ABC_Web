@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html>
 
-<body>
-<h1 align=center>Create a New Campaign</h1>
 
-<form onsubmit="return confirm('Campaign Created')">
+<head>
+<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
+</head>
+
+
+<body>
+
+<ul>
+<li><a href="CampaignManagement.html">Back</a></li> 
+<li><a href="Login.html">Logout</a></li>
+</ul>
+
+
+<br>
+<h1 class="introduction">Create a New Campaign</h1>
+
+<br><br>
+
+<form class="container" onsubmit="return confirm('Campaign Created')">
 <fieldset>
 <legend>Campaign Details</legend>
-
+ 
 <br>
 
   <span style="color:red;">*</span>
@@ -62,11 +79,6 @@
 
 </form>
 <br><br>
-
-<form action="CampaignManagement.html">
-<button>Back</button>
-</form>
-
 </fieldset>
 
 </body>

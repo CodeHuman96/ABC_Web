@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
 <script>
 function tableDisplay() {
 
@@ -34,7 +36,15 @@ table, th, td {
 
 
 <body>
-<h1 align=center>Assign Prospects to Sales Agents</h1>
+
+<ul>
+<li><a href="CampaignManagement.html">Back</a></li> 
+<li><a href="Login.html">Logout</a></li>
+</ul>
+<br>
+<h1 class="introduction">Assign Prospects to Sales Agents</h1>
+<br>
+<form class= "container">
 
 Campaign:
 <select name="campaign" id="camp">
@@ -42,16 +52,17 @@ Campaign:
 <option value="C2">C2</option>
 <option value="C3">C3</option>
 </select>
-
-
+</form>
+<br>
 <button onclick="tableDisplay()">Search</button>
 
-<br><br><br>
-
-<form onsubmit="return confirm('Prospects Assigned')">
+<br><br>
 
 
-<table id="0" style="display:none ">
+
+<form class= "container" onsubmit="return confirm('Prospects Assigned')">
+
+<table class="tabular" id="0" style="display:none ">
 
 <tr>
 <th>Check</th>
@@ -120,7 +131,7 @@ Campaign:
 
 
 
-<table id="1" style="display:none ">
+<table class="tabular" id="1" style="display:none ">
 
 <tr>
 <th>Check</th>
@@ -188,7 +199,7 @@ Campaign:
 </table>
 
 
-<table id="2" style="display:none ">
+<table class="tabular" id="2" style="display:none ">
 
 <tr>
 <th>Check</th>
@@ -254,7 +265,9 @@ Campaign:
 </tr>
 </table>
 
-<br><br><br>
+<br>
+
+
 
 
 <span>Employee id:</span>
