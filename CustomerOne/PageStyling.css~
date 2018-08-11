@@ -38,11 +38,16 @@
 		
 }
 body {
-   background-image: url("../Pictures/BackGround1.png");
-   background-color: #cccccc;
+   
+	
+background-image: url("../Pictures/BackGround1.png");
+background-size: cover;
+    background-position: 5% 15%;
+	   background-color: #cccccc;
 	 background-repeat: no-repeat;
+	
    height: 100%; 
-   size: cover;
+   
 }
 /*.info{
 	position: fixed;
@@ -60,7 +65,7 @@ body {
 		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     margin: auto;
-    width: 50%;
+    width: 100%;
     padding: 10px;
 		padding-top: 50px;
 		padding-left: 0px;
