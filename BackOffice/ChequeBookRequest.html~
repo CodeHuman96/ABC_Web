@@ -4,7 +4,9 @@
 
 
 <head>
+<title> Cheque Book Request </title>
 <link rel="stylesheet" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" href="../CustomerOne/FormStyle.css">
 <script>
 function warn(){
 if ( document.getElementsByName('status')[0].value == "rejected" && document.getElementById('responsearea').value=="")
@@ -24,7 +26,7 @@ return confirm('Form has been successfully submitted');
 
 <form  onsubmit="warn() ">
 <fieldset>
-<div class="introduction"><h1 >Cheque Book Request </h1></div>
+<div class="introduction" class="container"><h1 >Cheque Book Request </h1></div>
 <br>
 
 

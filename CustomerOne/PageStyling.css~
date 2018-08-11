@@ -27,7 +27,7 @@
     cursor: pointer;
     width: 150px;
     display: block;
-	margin-left: auto;
+	  margin-left: auto;
     margin-right: auto;	
 }
 .Options .Ch:not(:last-child) {
@@ -42,7 +42,6 @@ body {
    background-color: #cccccc;
 	 background-repeat: no-repeat;
    height: 100%; 
-   background-repeat: no-repeat;
    size: cover;
 }
 /*.info{
@@ -61,23 +60,22 @@ body {
 		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     margin: auto;
-    width: 100%;
+    width: 50%;
     padding: 10px;
 		padding-top: 50px;
 		padding-left: 0px;
 		background-color: rgba(0, 0, 0, 0.7);
+	table-layout: auto;
 
 }
-.tabular td, .tabular th {
-    border: 0px solid #ddd;
-    padding: 8px;
-}
+
 
 .tabular tr:nth-child(even){	
 	background-color: #f2f2f2;
 }
 .tabular tr:nth-child(odd){	
 	background-color: #FFEFBD;
+
 }
 .tabular tr:hover {
 	background-color: #ddd;
