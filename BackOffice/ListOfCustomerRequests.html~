@@ -37,16 +37,22 @@
 			</td>
 		</tr>
 	</table>
-  	
+  	<!--<label>Request Type:</label>
+    		<select name="Req Type">
+    			<option value="Cheque Book" selected>Cheque Book</option>
+    			<option value="Lost/Stolen Card">Lost/Stolen Card</option>
+  		</select>
 	<br>
 	<br>
-	<br>
-	<br>
-	
-	<table>
 
-
-
+	<label>Status:</label> 
+		<select name="Status">
+			<option value="Pending" selected>Pending</option>
+			<option value="Rejected">Rejected</option>
+			<option value="Processed">Processed</option>
+		</select>
+	<br>
+	<br>-->
   <input type="submit" value="Submit">
 </form> 
 

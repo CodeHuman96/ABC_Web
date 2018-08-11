@@ -1,21 +1,58 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
+		<link rel="stylesheet" type="text/css" href="BackOfficeMenu.css">
 	</head>
 
 	<body>
-		<h2 style ="text-align:center;">Back Office Menu</h2>
-		<form name="BOMenu" action>
-		<input type="button" value="Queries" />
+		<u><h2>Back Office Menu</h2></u>
 		<br>
+		<br>
+		
+		<form id="one" action="https://www.google.com" style ="text-align:right;">
+			<button>Signout</button>
+		</form>		
+				
+		<div>
+			<form action="ListOfQueries.html">
+				<button>
+					<a href="ListOfQueries.html">Queries</a>
+				</button>
+			</form>
+			<br>
+			<br>
+
+			<form action="ListOfBillPayments.html">
+				<button>
+					<a href="ListOfBillPayments.html">Bill Payment</a>
+				</button>
+			</form>
+			<br>
+			<br>
+		
+			<form action="ListOfCustomerRequests.html">
+				<button>
+					<a href="ListOfCustomerRequests.html">Cuastomer Requests</a>
+				</button>
+			</form>
+		</div>
+
+
+
+
+
+ 		
+		<!--<input type="button" value="Queries" />
+		<input type="button" value="Signout" />
+		
+		<br>
+
 		<input type="button" value="Bill Payment" />
 		<br>
 		<input type="button" value="Customer Requests" />
 		<br>
 		
-		<input type="button" value="Signout" />
-		<br>
-		</form>
+				<br>
+		</form>-->
 	</body>
 </html>

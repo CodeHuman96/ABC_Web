@@ -1,0 +1,7 @@
+table, td{
+	border:none;
+	border-collapse:collapse;
+} 
+select{
+	width:150px;
+}
