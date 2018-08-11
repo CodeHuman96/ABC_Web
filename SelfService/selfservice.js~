@@ -18,18 +18,51 @@ function back()
 {
 window.history.back();
 }
-function tableDisplay() {
-    var x0=document.getElementById(0);
-    var x1=document.getElementById(1);
-    var x2=document.getElementById(2);
-    var x3=document.getElementbyId(3);
-    var y = document.getElementById("elementid").selectedIndex;
-    var x = document.getElementById(y);
-    x0.style.display = "none"
-    x1.style.display = "none"
-    x2.style.display = "none"
-    x3.style.display = "none"	
-    x.style.display = "table";
+function request()
+{
+var e = document.getElementById("elementId");
+var value = e.options[e.selectedIndex].value;
+	if(value=="All")
+	{
+		data = [
+    ['Mazda', 2001, 2000, '2006-01-01'],
+    ['Pegeout', 2010, 5000, '2005-01-01'],
+    ['Honda Fit', 2009, 3000, '2004-01-01'],
+    ['Honda CRV', 2010, 6000, '2003-01-01'],];
+	}
+	else if(value=="ChequeBook")
+	{
+		data = [
+    ['Pegeout', 2010, 5000, '2005-01-01'],
+    ['Honda Fit', 2009, 3000, '2004-01-01'],
+    ['Honda CRV', 2010, 6000, '2003-01-01'],
+];
+	}
+	else if(value=="Card")
+	{
+		data = [
+    ['Honda Fit', 2009, 3000, '2004-01-01'],
+    ['Honda CRV', 2010, 6000, '2003-01-01'],
+];
+	}
+	else
+	{
+		data = [
+    ['Honda CRV', 2010, 6000, '2003-01-01'],
+];
+	}
+	$('#mytable').jexcel({
+    data:data,
+    colHeaders: ['Description','Year','Price', 'Buy'],
+    colWidths: [ 200, 300, 100, 100 ],
+    columns: [
+        { type: 'text', readOnly:true },
+        { type: 'text', },
+        { type: 'text', },
+        { type: 'checkbox' },
+    ]
+});
+
 }
 
 $(function() {
