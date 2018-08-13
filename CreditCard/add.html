@@ -18,6 +18,9 @@ table, th, td {
 <script>
 	function fun1()
 	{
+		if(document.getElementById("1").value=="" || document.getElementById("2").value=="")
+			alert("Fields can't be Empty");
+		else
 		document.getElementById("res").innerHTML="Added Successfully";
 		
 	}

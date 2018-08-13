@@ -11,17 +11,24 @@
 
 <h1 class="introduction">Welcome to ABC Bank</h1>
 <br><br><br>
-<h3 style="color:white;text-align:center" >ABC Bank is primarily a regional bank which has been in <br>existence in the southern states of India since 1965. <br>Our bank has been providing standard banking services and <br>guarentees personalized and timely services to its customers.
 
-<br><br>
+<pre style="color:white;text-align:center;font-size:17px"><strong>
+ABC Bank is primarily a regional bank which 
+has been in existence in the southern
+states of India since 1965.
+Our bank has been providing standard banking
+services and guarentees personalized and
+timely services to its customers.
 
+<br>
 Do you want to continue as
-</h3>
-<br><br>
-<button type="button" onclick="location.href='../SelfService/login.html'"> Customer</button>
-<br><br>
-<button type="button" onclick="location.href='../ValueMobilization/Login.html'"> Employee</button>
 
+
+<button type="button" onclick="location.href='../SelfService/login.html'"> Customer</button>
+<br>
+<button type="button" onclick="location.href='../ValueMobilization/Login.html'"> Employee</button>
+</strong>
+</pre>
 
 </body>
 </html>
