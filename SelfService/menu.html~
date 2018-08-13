@@ -12,7 +12,7 @@ function goToPage(url) {
     window.location.href = url;
 }
 </script>
-
+<!--
 <style>
 ol {
 list-style-type: none;
@@ -42,7 +42,7 @@ ol li a {
 li a:hover {
     background-color: #111111;
 }
-</style>
+</style>-->
 <!--<ol>
   <li><a href="/home/test/ABC_Web/SelfService/menu.html"><b>BillPayment Menu</b></a></li>
   <li><a href="/home/test/ABC_Web/SelfService/customermenu.html">Home</a></li>
@@ -50,7 +50,7 @@ li a:hover {
 <div class="introduction">
 	<h2>Billpayment Menu</h2>
 </div>
-<input type="button" style='float:right' onclick="/home/test/ABC_Web/SelfService/customermenu.html" value="Home">
+
 <form action="../SelfService/customermenu.html">
 			<button style='float:right'>Home</button>
 		</form>
