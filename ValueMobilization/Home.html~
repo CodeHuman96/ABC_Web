@@ -4,8 +4,24 @@
 <head>
 <link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
 <link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
+
 </head>
 
-<body>
+<body class="B1">
 
-<body>
+<h1 class="introduction">Welcome to ABC Bank</h1>
+<br><br><br>
+<h3 style="color:white;text-align:center" >ABC Bank is primarily a regional bank which has been in <br>existence in the southern states of India since 1965. <br>Our bank has been providing standard banking services and <br>guarentees personalized and timely services to its customers.
+
+<br><br>
+
+Do you want to continue as
+</h3>
+<br><br>
+<button type="button" onclick="location.href='../SelfService/login.html'"> Customer</button>
+<br><br>
+<button type="button" onclick="location.href='../ValueMobilization/Login.html'"> Employee</button>
+
+
+</body>
+</html>

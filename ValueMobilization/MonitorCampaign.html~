@@ -2,13 +2,10 @@
 <html>
 
 <head>
-<<<<<<< HEAD
-=======
 
 <link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
 <link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
 
->>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 <script>
 function tableDisplay() {
 
@@ -50,56 +47,31 @@ table, th, td {
 <li><a href="Home.html">Home</a></li>
 </ul>
 
-<<<<<<< HEAD
 <br>
 
 <h1 class="introduction">Monitor Campaign Effectiveness</h1>
 <br>
-=======
-<h1>Monitor Campaign Effectiveness</h1>
-<<<<<<< HEAD
-=======
->>>>>>> baa4fd73c7d7bbde174e560d3b8d2d17da935f3b
 <form class="container">
->>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 Campaign:
 <select name="campaign" id="camp">
 <option value="C1">C1</option>
 <option value="C2">C2</option>
 <option value="C3">C3</option>
 </select>
-<<<<<<< HEAD
-=======
 </form>
->>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 <button onclick="tableDisplay()">Search</button>
 
-
 <br><br><br>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<br><br><br>
->>>>>>> b4653afd9cd8bf32f8adb6d7709e6b9cbf973bcd
 <form class="container">
->>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 <span>Total Prospects:</span>
 <span>3</span>
 <br><br>
 <span>Unassigned Prospects:</span>
 <span>0</span>
-<<<<<<< HEAD
-
-<br><br><br>
-
-<table id="0">
-=======
 </form>
 <br><br><br>
 
 <table class="tabular" id="0">
->>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 
 <tr>
 <th>Sales Agent</th>
@@ -125,17 +97,13 @@ Campaign:
 <tr>
 <td>Agent1</td>
 <td>Anshuman</td>
-<td>Inactive</td>
-<td>Not Committed</td>
+<td>Active</td>
+<td>Committed</td>
 </tr>
 
 </table>
 
-<<<<<<< HEAD
-<table id="1">
-=======
 <table class="tabular" id="1">
->>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 
 <tr>
 <th>Sales Agent</th>
@@ -146,33 +114,29 @@ Campaign:
 
 <tr>
 <td>Agent2</td>
-<td>Sampada</td>
+<td>Viraja</td>
 <td>Active</td>
 <td>Committed</td>
 </tr>
 
 <tr>
 <td>Agent2</td>
-<td>Karhtiga</td>
-<td>Active</td>
-<td>Committed</td>
-</tr>
-
-<tr>
-<td>Agent2</td>
-<td>Anshuman</td>
+<td>Sashi</td>
 <td>Inactive</td>
 <td>Not Committed</td>
+</tr>
+
+<tr>
+<td>Agent2</td>
+<td>Saranya</td>
+<td>Active</td>
+<td>Committed</td>
 </tr>
 
 </table>
 
 
-<<<<<<< HEAD
-<table id="2">
-=======
 <table class="tabular" id="2">
->>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 
 <tr>
 <th>Sales Agent</th>
@@ -183,7 +147,7 @@ Campaign:
 
 <tr>
 <td>Agent3</td>
-<td>Sampada</td>
+<td>Shiva Sai</td>
 <td>Active</td>
 <td>Committed</td>
 </tr>
@@ -197,18 +161,15 @@ Campaign:
 
 <tr>
 <td>Agent3</td>
-<td>Anshuman</td>
-<td>Inactive</td>
-<td>Not Committed</td>
+<td>Nischala</td>
+<td>Active</td>
+<td>Committed</td>
 </tr>
 
 </table>
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 31041134e0783cb20adcbb70a4c1cac0d50db735
 </body>
 
 </html>
