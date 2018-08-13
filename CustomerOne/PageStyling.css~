@@ -1,4 +1,4 @@
-.
+
 .introduction {
 	list-style-type: none;
     margin: 0;
@@ -43,7 +43,11 @@ body {
 	
 background-image: url("../Pictures/BackGround1.png");
 background-size: cover;
+<<<<<<< HEAD
     background-position: 0% 5%;
+=======
+    background-position: 0% 15%;
+>>>>>>> 46f0acd39ee2a37510c83cdeafca9f836e1ff46f
 	   background-color: #cccccc;
 	 background-repeat: no-repeat;
 	
@@ -66,7 +70,7 @@ background-size: cover;
 		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     margin: auto;
-    width: 100%;
+    
     padding: 10px;
 		padding-top: 50px;
 		padding-left: 0px;
@@ -75,6 +79,12 @@ background-size: cover;
 
 }
 
+.tabular td, .tabular th {
+    border: 0px solid #ddd;
+    padding: 8px;
+	 
+    
+}
 
 .tabular tr:nth-child(even){	
 	background-color: #f2f2f2;
@@ -95,14 +105,32 @@ background-size: cover;
     color: white;
 }
 
+ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
 
-
-
-
-
-
-
+a:hover {
+    background-color: green;
+}
 
 
 

@@ -2,23 +2,46 @@
 <html>
 <head>
 <link rel="stylesheet" href="PageStyling.css">
+<link rel="stylesheet" href="FormStyle.css">
+ <!--<link rel="stylesheet" href="PageStyling.css">--> 
+<script>
+function goToPage(url) {
+    window.location.href = url;
+}
+</script>
 <body>
 	
-		 <span style='font-weight:bold;font-size:25px;margin-left:275px;float:center;'>Credit Card Self-Service Menu</span>
- 
-		 <span style='float:right;display:inline-block;'>Welcome xxxxx</span><br><br><br>
+		 
+ <div class="introduction">
+	<span><h1 class="pageLabel">Credit Card Self-Service Menu <span style="float:right;font-size:20px"> Welcome xxxxxx </span></h1>
+	 
+</div>
+	 
 
-		<a href="CustLogin.html" style='float:right;'>SignOut</a>
-		
-		<br><br><br><br>
+		 
 
-		<div style='margin-left:100px'>
-
-		<form action="Redeem.html"><button><a href="Redeem.html">Redeem Reward Points</a></button></form><br><br><br><br><br>
-		<form action="View.html"><button><a href="View.html">View Request Status</a></button></form><br><br><br><br><br>
-		<form action="List.html"><button><a href="List.html">List of Credit Card Accounts</a></button></form>
-		
+		<!--<b><a  href="CustLogin.html" style='color:blue;float:right;'>SignOut</a></b>-->
+		<form action="../SelfService/customermenu.html">
+			<button style='float:right'>Home</button>
+		</form>
+		 
+		<div class="Options">
+		<div class="Ch" onclick="goToPage('Redeem.html')">
+			<h3 class="DeDuplication_title" title="DeDuplication">
+				Redeem
+			</h3>
 		</div>
+		<div class="Ch" onclick="goToPage('View.html')">
+			<h3 class="CustomerSearch" title="CustomerSearch">
+				View
+			</h3>
+		</div>
+		<div class="Ch" onclick="goToPage('List.html')">
+			<h3 class="AddNew_title" title="AddNewCustomer" >
+				List
+			</h3>
+		</div>
+	</div> 
 
  
 </body>

@@ -20,8 +20,13 @@ function goToPage(url) {
 			</h3>
 			
 		</div>
+<<<<<<< HEAD
 		<div class="Ch" onclick="goToPage('../BackOffice/BackOfficeMenu.html.html')">
 			<h3 class="backOffice_title" title="BackOffice">
+=======
+		<div class="Ch">
+			<h3 class="backOffice_title" title="BackOffice" onclick="goToPage('/home/test/ABC_Web/BackOffice/BackOfficeMenu.html')">
+>>>>>>> 46f0acd39ee2a37510c83cdeafca9f836e1ff46f
 				Back Office
 			</h3>
 		</div>

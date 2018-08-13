@@ -9,9 +9,19 @@
 
 
 <body>
-<h1 align=center>Create a New Campaign</h1>
 
-<form class="tabular" onsubmit="return confirm('Campaign Created')">
+<ul>
+<li><a href="CampaignManagement.html">Back</a></li> 
+<li><a href="Login.html">Logout</a></li>
+</ul>
+
+
+<br>
+<h1 class="introduction">Create a New Campaign</h1>
+
+<br><br>
+
+<form class="container" onsubmit="return confirm('Campaign Created')">
 <fieldset>
 <legend>Campaign Details</legend>
  
@@ -69,11 +79,6 @@
 
 </form>
 <br><br>
-
-<form class="tabular" action="CampaignManagement.html">
-<button>Back</button>
-</form>
-
 </fieldset>
 
 </body>
