@@ -15,6 +15,7 @@ function goToPage(url) {
 <ul>
 <li><a href="login.html">Log out</a></li>
 </ul>
+<br>
 <div class="introduction">
 	<h2>Customer Menu</h2>
 </div>
