@@ -14,11 +14,9 @@ function goToPage(url) {
 }
 </script>
 </style>
-
 <ul>
 <li id ="log"><a href="../ValueMobilization/Home.html">Log out</a></li>
 </ul>
-
 <br>
 <div class="introduction">
 	<h2>Customer Menu</h2>
