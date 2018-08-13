@@ -132,7 +132,7 @@ return alert('Action has been performed!');
 
 <br><br><br>
 <button type="submit" onclick="sub()" >Submit</button>
-<button  align="right"  type="button" onclick="location.href=''">Back </button>
+<button  align="right"  type="button" onclick="location.href='BackOfficeMenu.html'">Back </button>
 
 </div>
 </body>
