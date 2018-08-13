@@ -31,7 +31,11 @@ else
 <li><a href="../CustomerOne/EmployeeMainMenu.html">Back</a></li> 
 <li><a href="Home.html">Home</a></li>
 </ul>
+<<<<<<< HEAD
 <br>
+=======
+br
+>>>>>>> b4e2655969c5eb5192cefc3c85ba4e6dff213b4e
 
 
 <h1 class="introduction">Login</h1>
