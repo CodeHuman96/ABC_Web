@@ -78,10 +78,12 @@ table,tr,td,th
 
 
 	
-		</table></div>
+		</table>
 		<br><br><br><br><br><br><br><br> 
 
-		 <form action="SelfServiceMenu.html" style='margin-left:600px;'><button>Back</button></form> 
+		 <form action="SelfServiceMenu.html" style='margin-left:600px;'><button>Back</button></form>
+	
+		</div> 
 
 		
 
