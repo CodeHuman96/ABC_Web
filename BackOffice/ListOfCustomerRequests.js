@@ -1,17 +1,25 @@
+
+	var acNo;
+	var acType;
+	var custName;
+	var reqDate;
+	var stat;
+	
+
 function tableDisplay()
 			{
 
 				var r = document.getElementById("Req").selectedIndex;
 				var s = document.getElementById("status").selectedIndex;
 					
-
 				var t0=document.getElementById(0);
 				var t1=document.getElementById(1);
 				var t2=document.getElementById(2);
 				var t3=document.getElementById(3);
 				var t4=document.getElementById(4);
 				var t5=document.getElementById(5);
-				
+
+								
 				t0.style.display = "none";
    				t1.style.display = "none";
     				t2.style.display = "none";
