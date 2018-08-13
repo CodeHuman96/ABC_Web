@@ -14,24 +14,23 @@ function goToPage(url) {
 		<h1 class="pageLabel">Options<h1>
 	</div>
 	<div class="Options">
-		<div class="Ch">
-			<h3 class="CustomerOne_title" title="CustomerOneS" onclick="goToPage('\CustomerOneMain.html')">
+		<div class="Ch"  onclick="goToPage('\CustomerOneMain.html')">
+			<h3 class="CustomerOne_title" title="CustomerOneS">
 				Customer One Service
 			</h3>
 			
 		</div>
-		<div class="Ch">
-			<h3 class="backOffice_title" title="BackOffice" onclick="goToPage('to do.html')">
+		<div class="Ch" onclick="goToPage('../BackOffice/BackOfficeMenu.html')">
+			<h3 class="backOffice_title" title="BackOffice">
 				Back Office
 			</h3>
 		</div>
 		<div class="Ch">
-			<h3 class="RewardCatalog_title" title="RewardCatalog" onclick="goToPage('to do.html')">
-				Reward Catalog
+			<h3 class="RewardCatalog_title" title="RewardCatalog" onclick="goToPage('../CreditCard/RewardCatalog.html')">Reward Catalog
 			</h3>
 		</div>
-		<div class="Ch">
-			<h3 class="CampaignManagement_title" title="CampaignManagement" onclick="goToPage('to do.html')">
+		<div class="Ch"  onclick="goToPage('../ValueMobilization/CampaignManagement.html')">
+			<h3 class="CampaignManagement_title" title="CampaignManagement">
 				Campaign Management
 			</h3>
 		</div>
