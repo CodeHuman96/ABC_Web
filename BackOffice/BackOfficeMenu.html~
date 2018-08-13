@@ -10,30 +10,37 @@ function goToPage(url) {
 }
 </script>
 <body>
+
+	<ul>
+
+<li id="log"><a href="../ValueMobilization/Home.html">Logout</a></li>
+<li><a href="../CustomerOne/EmployeeMainMenu.html">Home</a></li>
+	</ul>
+
 	<div class="introduction">
 		<h1 class="pageLabel">Back Office Menu</h1>
 	</div>
 	<div class="Options">
 		<div class="Ch">
-			<h3 class="Queries_title" title="Queries" onclick="goToPage('ListOfQueries.html')">
+			<h3 class="queries_title" title="Queries" onclick="goToPage('ListOfQueries.html')">
 				Queries
 			</h3>
 			
 		</div>
 		<div class="Ch">
-			<h3 class="backOffice_title" title="Bill Payment" onclick="goToPage('ListOfBillPayment.html')">
+			<h3 class="billpayment_title" title="Bill Payment" onclick="goToPage('ListOfBillPayment.html')">
 				Bill Payment
 			</h3>
 		</div>
 		<div class="Ch">
-			<h3 class="RewardCatalog_title" title="Customer Requests" onclick="goToPage('ListOfCustomerRequests.html')">
+			<h3 class="customerrequest_title" title="Customer Requests" onclick="goToPage('ListOfCustomerRequests.html')">
 				Customer Requests
 			</h3>
 		</div>
 
 		<div class="Ch">
-			<h3 class="RewardCatalog_title" title="RewardCatalog" onclick="goToPage('ListOfCustomerRequests.html')">
-				Customer Requests
+			<h3 class="signout_title" title="Signout" onclick="goToPage('/home/test/ABC_Web/CustomerOne/EmployeeMainMenu.html')">
+				Signout
 			</h3>
 		</div>
 
