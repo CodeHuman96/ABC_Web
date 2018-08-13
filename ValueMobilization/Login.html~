@@ -27,6 +27,13 @@ else
 
 <body>
 
+<ul>
+<li><a href="../CustomerOne/EmployeeMainMenu.html">Back</a></li> 
+<li><a href="Home.html">Home</a></li>
+</ul>
+<br>
+
+
 <h1 class="introduction">Login</h1>
 <br><br><br><br>
 
