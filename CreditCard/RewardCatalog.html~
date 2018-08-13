@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="PageStyling.css">
+<link rel="stylesheet" href="FormStyle.css">
+<style>
+table, th, td {
+    border: 1px solid black;
+     border-collapse: collapse;
+}
+</style>
+<body>
+
+		
+		<div class="introduction">
+			<h1 class="pageLabel">List Of Reward Products</h1>
+		</div>
+	
+		 
+	 
+		
+		 <div class="container"> 
+
+		
+
+		<table align='center' class="tabular">
+			<tr>
+				 <th>&ensp;Product Description&ensp;</th>
+				<th>&ensp;Points Needed&ensp;</th>
+				<th>&ensp;Status&ensp;</th>
+				 
+			</tr>
+			<tr>
+				<td>&ensp;Mobile&ensp;</td>
+				<td>&ensp;1500&ensp;</td>
+				<td>&ensp;Active&ensp;</td>
+				 
+		
+			</tr>
+			<tr>
+				<td>&ensp;Pendrive&ensp;</td>
+				<td>&ensp;300&ensp;</td>
+				<td>&ensp;Active&ensp;</td>
+				 
+		
+			</tr>
+			<tr>
+				<td>&ensp;Laptop&ensp;</td>
+				<td>&ensp;4000&ensp;</td>
+				<td>&ensp;Active&ensp;</td>
+				 
+		
+			</tr>
+			<tr>
+				<td>&ensp;Power Bank&ensp;</td>
+				<td>&ensp;350&ensp;</td>
+				<td>&ensp;Active&ensp;</td>
+				 
+		
+			</tr>
+
+
+	
+		</table>
+		<br><br><br><br><br><br><br><br> 
+
+		<button style='margin-left:500px;' onclick="window.open('add.html','_self')">Add</button> &ensp;&ensp;&ensp;
+		 <button onclick="window.open('add.html','_self')">Update</button>  
+		</div>
+
+		
+
+	 
+	
+</body>
+
+</head>
+</html>
