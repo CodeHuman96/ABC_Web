@@ -1,4 +1,4 @@
-.
+
 .introduction {
 	list-style-type: none;
     margin: 0;
@@ -66,7 +66,7 @@ background-size: cover;
 		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     margin: auto;
-    width: 100%;
+    
     padding: 10px;
 		padding-top: 50px;
 		padding-left: 0px;
@@ -75,6 +75,12 @@ background-size: cover;
 
 }
 
+.tabular td, .tabular th {
+    border: 0px solid #ddd;
+    padding: 8px;
+	 
+    
+}
 
 .tabular tr:nth-child(even){	
 	background-color: #f2f2f2;
@@ -101,7 +107,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 
 }
 
@@ -121,13 +127,6 @@ li a {
 a:hover {
     background-color: green;
 }
-
-
-
-
-
-
-
 
 
 

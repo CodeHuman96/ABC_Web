@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
   <script src="Myprofile.js" type="text/javascript"></script>
 <title>CustomerProfile</title>
 </head>
-<link rel="stylesheet" type="text/css" href="Myprofile.css">
+<!--<link rel="stylesheet" type="text/css" href="Myprofile.css">-->
 <body>
-
-<h1>My Profile Details</h1>
-<h3>Welcome XXXXX</h3>
-<div>
+<div class="introduction">
+<h1>My Profile Details <span style="float:right;font-size:20px"> Welcome xxxxxx </span></h1>
+</div>
+<div class="container">
 <form>
 	 <label>Name:</label>
   <output>XXXX</output>
-  <br><br>
+ <br><br>
  
    <label>User Name:</label>
    <output class="usrname">XXXX</output>
-   <br><br>
- 
+   
+ <br><br>
    <label>DOB:</label>
     <output class="DOB">XXXX</output>
-   <br><br>
- 
+   
+ <br><br>
    <label> Phone Number:</label>
    <output class="phno">XXXX</output>
   <br><br>
-  <label>Address:<label>
+  <span style="color:red;">*</span>
+  <label>Address:</label>
   <input class="add" type="text" name="password" value="">
-  <br><br>
-  <label>City:<label>
+  <br>
+  <span style="color:red;">*</span>
+  <label>City:</label>
   <input class="city" type="text" name="password" value="">
-  <br><br>
-  <label>Pincode:<label>
+ <br>
+ <span style="color:red;">*</span>
+  <label>Pincode:</label>
   <input class="pin" type="text" name="password" value="">
-  <br><br>
-  <label>Country:<label>
+  <br>
+  <span style="color:red;">*</span>
+  <label>Country:</label>
   <input class="country" type="text" name="password" value="">
   <br><br>
-  <label>Pan No:<label>
+  <label>Pan No:</label>
    <output class="pan">XXXX</output>
-  <br><br>
-  Email:
+  <br><br><br>
+  <label>Email:</label>
   <input class="email" type="text" name="password" value="">
-  <br><br>
-  
-  <br><br>
+  <input type="button" onclick="submit1()" value="Submit">
+&emsp;&emsp;
+<input type="button" onclick="back()" value="Back">
 </form>
 </div>
-<div class="last">
-<button type="button" onclick="submit()">Submit</button>
-&emsp;&emsp;
-<button type="button" onclick="back()">Back</button>
-</div>
+
+
+
 </body>
 </html>

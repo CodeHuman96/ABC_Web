@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<head>
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
+<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/FormStyle.css">
+</head>
+
+<script>
+function goToPage(url) {
+    window.location.href = url;
+}
+</script>
+</style>
+
+<div class="introduction">
+	<h2>Customer Menu</h2>
+</div>
+<div class="Options">
+		<div class="Ch" onclick="goToPage('ServiceMenu.html')" style="width:200px">
+			<h3  class="customerselfservice_title" title="customer selfservice">
+				customer self service
+			</h3>
+		</div>
+		<div class="Ch" onclick="goToPage('../CreditCard/SelfServiceMenu.html')" style="width:200px">
+			<h3 class="SelfServiceMenu" title="SelfServiceMenu">
+				Credit-Card Self Service
+			</h3>
+		</div>
+		<div class="Ch" onclick="goToPage('menu.html')" style="width:200px">
+			<h3 class="billPayment" title="billpayment" >
+				Bill Payment Service
+			</h3>
+		</div>
+		<div class="Ch" onclick="goToPage('login.html')" style="width:200px">
+			<h3 class="log out" title="logout" >
+				Log Out
+			</h3>
+		</div>
+</div>
+
+
+</body>
+</html>
