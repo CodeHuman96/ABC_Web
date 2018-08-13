@@ -1,4 +1,4 @@
-
+	
 .introduction {
 	list-style-type: none;
     margin: 0;
@@ -126,6 +126,15 @@ li a {
 
 a:hover {
     background-color: green;
+}
+
+input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
