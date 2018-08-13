@@ -11,6 +11,7 @@
 <body class="B1">
 
 <h1 class="introduction">Welcome to ABC Bank</h1>
+<h3 class ="introduction" ><i>&ensp;   &ensp;   &ensp;...We grow as you grow...</i></h3	>
 <br><br><br>
 
 <pre style="color:white;text-align:justify;font-size:17px"><strong>
@@ -25,9 +26,9 @@
 				    Do you want to continue as
 
 
-					<button type="button" onclick="location.href='../SelfService/login.html'"> Customer</button>
+					   <button type="button" onclick="location.href='../SelfService/login.html'"> Customer</button>
 <br>
-					<button type="button" onclick="location.href='../ValueMobilization/Login.html'"> Employee</button>
+					   <button type="button" onclick="location.href='../ValueMobilization/Login.html'"> Employee</button>
 </strong>
 </pre>
 
