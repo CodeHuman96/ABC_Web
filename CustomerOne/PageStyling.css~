@@ -38,6 +38,10 @@
     background-color: #FFA552;
 		
 }
+.B1{
+background-image: url("../Pictures/BackGround.png");
+
+}
 body {
    
 	
