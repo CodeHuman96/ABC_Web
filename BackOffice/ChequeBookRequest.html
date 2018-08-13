@@ -7,7 +7,6 @@
 <title> Cheque Book Request </title>
 <link rel="stylesheet" href="../CustomerOne/PageStyling.css">
 <link rel="stylesheet" href="../CustomerOne/FormStyle.css">
-
 <script>
 
 function warn(){
@@ -27,6 +26,11 @@ else
 
 
 <body>
+<ul>
+<li><a href='ListOfCustomerRequests.html'>Back</a></li> 
+<li id="log"><a href="../ValueMobilization/Home.html">Logout</a></li>
+<li><a href="../CustomerOne/EmployeeMainMenu.html">Home</a></li>
+</ul>
 
 <form  onsubmit="warn()">
 <fieldset>
@@ -35,20 +39,20 @@ else
 
 <div class="container">
 Account number:
-<input type="text" name="accountnumber" value="1234785960">
+<input type="text" name="accountnumber" value="1234567890">
 <br></br>
 
 
 Account type:   
-<input type="text" name="accounttype" value="Current">
+<input type="text" name="accounttype" value="Savings">
 <br></br>
 
 Customer Name:   
-<input type="text" name="customername" value="Kenny Thomas">
+<input type="text" name="customername" value="Mathew Perry">
 <br></br>
 
 Request Date:   
-<input type="text" name="requestdate" value="2017-12-21">
+<input type="text" name="requestdate" value="2018-06-21">
 <br></br>
 
 Number of Leaves:   
@@ -68,16 +72,16 @@ Number of Leaves:
 
 Response Area:
 <br></br>
-<textarea rows="4" cols="50" align="right" id="responsearea"></textarea>
+<textarea rows="4" cols="50" align="right" id="responsearea" placeholder="Enter response"></textarea>
 <br></br>
 
 
-<!--<button  type="submit" onclick="warn()" >Submit</button> -->
+
 
 <input  type="submit" value="Submit"> 
 
 <input type="reset">
-<button type="button" onclick="location.href='ListOfCustomerRequests.html'">Back </button>
+<!--<button type="button" onclick="location.href='ListOfCustomerRequests.html'">Back </button>-->
 </div>
 </fieldset>
 </form>

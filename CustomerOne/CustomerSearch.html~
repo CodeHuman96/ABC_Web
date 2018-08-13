@@ -12,9 +12,10 @@
 <body>
 <ul>
 <li><a href="../CustomerOne/CustomerOneMain.html">Back</a></li> 
-<li  id="log"><a href="../ValueMobilization/Login.html">Logout</a></li>
-<li><a href="../ValueMobilization/Home.html">Home</a></li>
+<li  id="log"><a href="../ValueMobilization/Home.html">Logout</a></li>
+<li><a href="../CustomerOne/EmployeeMainMenu.html">Home</a></li>
 </ul>
+<br>
 	<div class="introduction">
 		<h2>Customer Search</h2>
 	</div>

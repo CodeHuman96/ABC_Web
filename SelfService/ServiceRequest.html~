@@ -9,6 +9,7 @@
 <ul>
 <li id ="log"><a href="login.html">Log out</a></li>
 </ul>
+<br>
 	<div class="introduction">
 		<h1 class="pageLabel">Service Request Menu<h1>
 	</div>

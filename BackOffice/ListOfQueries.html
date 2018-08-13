@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<title>List of Queries</title>
 	<head>
 		<link rel="stylesheet" type="text/css" href="ListOfQueries.css">
 		<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
@@ -9,6 +10,12 @@
 		<script type="text/javascript" src="ListOfQueries.js"></script>	
 	</head>
 <body>
+
+	<ul>
+<li><a href='BackOfficeMenu.html'>Back</a></li> 
+<li id="log"><a href="../ValueMobilization/Home.html">Logout</a></li>
+<li><a href="../CustomerOne/EmployeeMainMenu.html">Home</a></li>
+	</ul>
 
 	<div class="introduction">
 		<h1 class="pageLabel">List of Queries<h1>
@@ -49,28 +56,28 @@
 			<th>Query Response</th>
 			<th>Status</th>
 		</tr>
-		<tr>
+		<tr onclick="document.location='QueryResponse.html'">
 			<td>52365</td>
 			<td>Mathew Perry</td>
 			<td>How to apply for new cheque book?</td>
 			<td>null</td>
 			<td>Pending</td>
 		</tr>
-		<tr>
+		<tr onclick="document.location='QueryResponse.html'">
 			<td>52363</td>
 			<td>Jensen Ackles</td>
 			<td>How long will it take to get new card?</td>
 			<td>null</td>
 			<td>Pending</td>
 		</tr>
-		<tr>
+		<tr onclick="document.location='QueryResponse.html'">
 			<td>52312</td>
 			<td>Jared Padalecki</td>
 			<td>How to activate internet banking?</td>
 			<td>null</td>
 			<td>Pending</td>
 		</tr>
-		<tr>
+		<tr onclick="document.location='QueryResponse.html'">
 			<td>52156</td>
 			<td>Daenerys Targaryen</td>
 			<td>can I update passbook from any branch?</td>
@@ -83,21 +90,21 @@
 	
 	<!--table1-->
 	<table id="1" class="tabular" style="display:none" align='center'>
-		<tr>
+		<tr onclick="document.location='QueryResponse.html'">
 			<th>Query Number</th>
 			<th>Customer Name</th>
 			<th>Customer Query</th>
 			<th>Query Response</th>
 			<th>Status</th>
 		</tr>
-		<tr>
+		<tr onclick="document.location='QueryResponse.html'">
 			<td>52345</td>
 			<td>Kenny Thomas</td>
 			<td>What are the documents required for add on card?</td>
 			<td>pan card, aadhar card</td>
 			<td>Responded</td>
 		</tr>
-		<tr>
+		<tr onclick="document.location='QueryResponse.html'">
 			<td>52321</td>
 			<td>Florance Nightingale</td>
 			<td>How to apply for new cheque book?</td>
@@ -113,7 +120,7 @@
 	<br>
 	
 	<form  action="BackOfficeMenu.html" style ="text-align:center;">
-			<button id='b1'>Back</button>
+			<!--<button id='b1'>Back</button>-->
 	</form>
 	</div>
   
