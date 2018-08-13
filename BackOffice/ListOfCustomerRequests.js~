@@ -1,17 +1,63 @@
+
+	var acNo;
+	var acType;
+	var custName;
+	var reqDate;
+	var stat;
+	
+	
+function show()
+{
+    var s0=document.getElementById(0);
+    var s1=document.getElementById(1);
+    var s2=document.getElementById(2);
+    var s3=document.getElementById(3);
+    var s4=document.getElementById(4);
+    var s5=document.getElementById(5);            
+   var custName="hi";
+	for(var i = 1; i < s0.rows.length; i++)
+                {
+                    s0.rows[i].onclick = function()
+                    {
+			alert(rows[i])
+                         //rIndex = this.rowIndex;
+			 acNo=this.cells[0].innerHTML;
+			 acType=this.cells[1].innerHTML;
+			 custName=this.cells[2].innerHTML;
+			 reqDate=this.cells[3].innerHTML;
+			 stat=this.cells[4].innerHTML;
+			 
+
+                         /*document.getElementById("fname").value = this.cells[0].innerHTML;
+                         document.getElementById("lname").value = this.cells[1].innerHTML;
+                         document.getElementById("age").value = this.cells[2].innerHTML;*/
+                    };
+                }
+	/*"document.location = 'links.html';*/
+	
+	document.location="ChequeBookRequest.html";
+	
+}
 function tableDisplay()
 			{
 
 				var r = document.getElementById("Req").selectedIndex;
 				var s = document.getElementById("status").selectedIndex;
 					
-
 				var t0=document.getElementById(0);
 				var t1=document.getElementById(1);
 				var t2=document.getElementById(2);
 				var t3=document.getElementById(3);
 				var t4=document.getElementById(4);
 				var t5=document.getElementById(5);
-			
+
+								
+				t0.style.display = "none";
+   				t1.style.display = "none";
+    				t2.style.display = "none";
+				t3.style.display = "none";
+   				t4.style.display = "none";
+    				t5.style.display = "none";
 				
 				if(r==0 && s==0)
 				{

@@ -3,6 +3,7 @@
 <head>
 <link rel="stylesheet" href="PageStyling.css">
 <link rel="stylesheet" href="FormStyle.css">
+<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
 <style>
 table, th, td {
     border: 1px solid black;
@@ -18,12 +19,20 @@ table, th, td {
 <script>
 	function fun1()
 	{
+		
+		if(document.getElementById("1").value=="" || document.getElementById("2").value=="")
+			alert("Fields can't be Empty");
+		else
 		document.getElementById("res").innerHTML="Updated Successfully";
 		
 	}
 		
 </script>
 <body>
+<ul>
+<li><a href="../SelfService/customermenu.html">Home</a></li> 
+<li id="log"><a href="../ValueMobilization/Home.html">Logout</a></li>
+</ul><br>
 
 		
 		<div class="introduction">

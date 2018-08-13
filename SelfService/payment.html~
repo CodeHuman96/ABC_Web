@@ -6,6 +6,8 @@
 <script src="bill.js" type="text/javascript"> </script>
 <link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
 <link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/FormStyle.css">
+
+<title>Bill Payment </title>
 </head>
 
 <style>
@@ -24,7 +26,7 @@ input[type=reset],input[type=button] {
 </style>
 
 <div class="introduction">
-<h3>Make Payment</h3>
+	<h2>Make Payment</h2>
 </div>
 
 <div class="container">
