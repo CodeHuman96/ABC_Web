@@ -4,6 +4,8 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
+
+<title>Customer Menu</title>
 </head>
 
 <script>
@@ -14,12 +16,10 @@ function goToPage(url) {
 </style>
 
 <ul>
-<li id="log"><a href="login.html">Log out</a></li>
-</ul>
-<<<<<<< HEAD
 
-=======
->>>>>>> d86c1bfa5317b0f2531c142035c115bfc5468c9c
+<li id="log"><a href="/home/test/ABC_Web/ValueMobilization/Home.html">Log out</a></li>
+</ul>
+
 <br>
 <div class="introduction">
 	<h2>Customer Menu</h2>
