@@ -4,9 +4,11 @@
 <title>Service Request</title>
 <script src="selfservice.js" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
-<link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
 </head>
 <body>
+<ul>
+<li id ="log"><a href="login.html">Log out</a></li>
+</ul>
 	<div class="introduction">
 		<h1 class="pageLabel">Service Request Menu<h1>
 	</div>

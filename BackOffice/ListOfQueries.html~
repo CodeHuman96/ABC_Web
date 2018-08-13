@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="ListOfQueries.css">
-		<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
-		<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/FormStyle.css">
+		<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+		<link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
 		
 
 		<script type="text/javascript" src="ListOfQueries.js"></script>	
@@ -63,6 +63,22 @@
 			<td>null</td>
 			<td>Pending</td>
 		</tr>
+		<tr>
+			<td>52312</td>
+			<td>Jared Padalecki</td>
+			<td>How to activate internet banking?</td>
+			<td>null</td>
+			<td>Pending</td>
+		</tr>
+		<tr>
+			<td>52156</td>
+			<td>Daenerys Targaryen</td>
+			<td>can I update passbook from any branch?</td>
+			<td>null</td>
+			<td>Pending</td>
+		</tr>
+	
+	
 	</table>
 	
 	<!--table1-->
