@@ -39,7 +39,7 @@
 		
 }
 .B1{
-background-image: url("../Pictures/BackGround.png");
+background-image: url("../Pictures/BackGround2.png");
 
 }
 body {
@@ -47,11 +47,7 @@ body {
 	
 background-image: url("../Pictures/BackGround1.png");
 background-size: cover;
-<<<<<<< HEAD
-    background-position: 0% 5%;
-=======
     background-position: 0% 15%;
->>>>>>> 46f0acd39ee2a37510c83cdeafca9f836e1ff46f
 	   background-color: #cccccc;
 	 background-repeat: no-repeat;
 	
@@ -82,22 +78,14 @@ background-size: cover;
 	table-layout: auto;
 
 }
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 44fa156bcfe09c11902a11e5a179e171c68423ee
 .tabular td, .tabular th {
     border: 0px solid #ddd;
     padding: 8px;
 	 
     
 }
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 44fa156bcfe09c11902a11e5a179e171c68423ee
 .tabular tr:nth-child(even){	
 	background-color: #f2f2f2;
 }
@@ -144,15 +132,9 @@ a:hover {
     background-color: green;
 }
 
-input[type=button] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+#log{
+    float: right;
 }
-
 
 
 
