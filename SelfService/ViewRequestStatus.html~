@@ -27,7 +27,7 @@
 				<option value="Query">Query</option>
 				</select>
 				<input type="button" value="Submit" onclick="request()"><br>
-				<br><div class="mytable"></div><br>
+				<br><div id="mytable"></div><br>
 				<input type="button" value="Back" onclick="back()">
 			</form>
 		</div>

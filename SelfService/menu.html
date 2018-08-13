@@ -5,6 +5,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
 <link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/FormStyle.css">
+<title>Bill Payment Menu</title>
 </head>
 
 <script>
@@ -12,7 +13,7 @@ function goToPage(url) {
     window.location.href = url;
 }
 </script>
-
+<!--
 <style>
 ol {
 list-style-type: none;
@@ -42,18 +43,28 @@ ol li a {
 li a:hover {
     background-color: #111111;
 }
+</style>-->
+<style>
+
+#home
+{
+ float:left;
+}
 </style>
-<!--<ol>
-  <li><a href="/home/test/ABC_Web/SelfService/menu.html"><b>BillPayment Menu</b></a></li>
-  <li><a href="/home/test/ABC_Web/SelfService/customermenu.html">Home</a></li>
-</ol>-->
+<ul>
+ <!--<li><a href="/home/test/ABC_Web/SelfService/menu.html"><b>BillPayment Menu</b></a></li>-->
+  <li id="home"><a href="/home/test/ABC_Web/SelfService/customermenu.html">Home</a></li>
+  <li id="log"><a href="/home/test/ABC_Web/ValueMobilization/Home.html">Log out</a></li>
+</ul>
+<br>
 <div class="introduction">
 	<h2>Billpayment Menu</h2>
 </div>
-
+<!--
 <form action="../SelfService/customermenu.html">
 			<button style='float:right'>Home</button>
 		</form>
+-->
 <div class="Options">
 		<div class="Ch" onclick="goToPage('billerList.html')" style="width:200px">
 			<h3 class="Manage Billers_title" title="Manage Billers">

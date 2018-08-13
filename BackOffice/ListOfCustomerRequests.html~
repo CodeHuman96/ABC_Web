@@ -8,6 +8,12 @@
 	</head>
 <body>
 
+	<ul>
+<li><a href='BackOfficeMenu.html'>Back</a></li> 
+<li id="log"><a href="../ValueMobilization/Home.html">Logout</a></li>
+<li><a href="../CustomerOne/EmployeeMainMenu.html">Home</a></li>
+	</ul>
+
 	<div class="introduction">
 		<h1 class="pageLabel">List of Customer Requests<h1>
 	</div>
@@ -62,7 +68,7 @@
 			<th>Request Date</th>
 			<th>Status</th>
 		</tr>
-		<tr>
+		<tr onclick="document.location='ChequeBookRequest.html'">
 			<td>Cheque Book</td>
 			<td>1234567890</td>
 			<td>Savings</td>
@@ -82,7 +88,7 @@
 	
 	<!--table1-->
 	<table id="1" class="tabular" style="display:none" align='center'>
-		<tr>
+		<tr onclick="document.location='ChequeBookRequest.html'">
 			<th>Request Type</th>
 			<th>Account Number</th>
 			<th>Account Type</th>
@@ -119,7 +125,7 @@
 			<th>Request Date</th>
 			<th>Status</th>
 		</tr>
-		<tr>
+		<tr onclick="document.location='ChequeBookRequest.html'">
 			<td>Cheque Book</td>
 			<td>12346749851</td>
 			<td>Current</td>
@@ -127,7 +133,7 @@
 			<td>2018-02-01</td>
 			<td>Processed</td>
 		</tr>
-		<tr>
+		<tr onclick="document.location='ChequeBookRequest.html'">
 			<td>Cheque Book</td>
 			<td>1231456312</td>
 			<td>Savings</td>
@@ -147,7 +153,7 @@
 			<th>Request Date</th>
 			<th>Status</th>
 		</tr>
-		<tr>
+		<tr onclick="document.location='ChequeBookRequest.html'">
 			<td>Lost/Stolen Card</td>
 			<td>334578962145</td>
 			<td>Current</td>
@@ -155,7 +161,7 @@
 			<td>2017-05-12</td>
 			<td>Pending</td>
 		</tr>
-		<tr>
+		<tr onclick="document.location='ChequeBookRequest.html'">
 			<td>Lost/Stolen Card</td>
 			<td>456231059874</td>
 			<td>Savings</td>
@@ -175,7 +181,7 @@
 			<th>Request Date</th>
 			<th>Status</th>
 		</tr>
-		<tr>
+		<tr onclick="document.location='ChequeBookRequest.html'">
 			<td>Lost/Stolen Card</td>
 			<td>1230452378</td>
 			<td>Savings</td>
@@ -183,7 +189,7 @@
 			<td>2017-01-21</td>
 			<td>Rejected</td>
 		</tr>
-		<tr>
+		<tr onclick="document.location='ChequeBookRequest.html'">
 			<td>Lost/Stolen Card</td>
 			<td>1231463217</td>
 			<td>Savings</td>
@@ -203,7 +209,7 @@
 			<th>Request Date</th>
 			<th>Status</th>
 		</tr>
-		<tr>
+		<tr onclick="document.location='ChequeBookRequest.html'">
 			<td>Lost/Stolen Card</td>
 			<td>1234412578</td>
 			<td>Current</td>
@@ -211,7 +217,7 @@
 			<td>2018-03-14</td>
 			<td>Processed</td>
 		</tr>
-		<tr>
+		<tr onclick="document.location='ChequeBookRequest.html'">
 			<td>Lost/Stolen Card</td>
 			<td>1237563745</td>
 			<td>Savings</td>
@@ -225,7 +231,7 @@
 	<br>
 	
 	<form  action="BackOfficeMenu.html" style ="text-align:center;">
-			<button id='b1'>Back</button>
+			<!--<button id='b1'>Back</button>-->
 	</form>
 	</div>
 	

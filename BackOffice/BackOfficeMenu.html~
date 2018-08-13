@@ -10,16 +10,37 @@ function goToPage(url) {
 }
 </script>
 <body>
+
+	<ul>
+
+<li id="log"><a href="../ValueMobilization/Home.html">Logout</a></li>
+<li><a href="../CustomerOne/EmployeeMainMenu.html">Home</a></li>
+	</ul>
+
 	<div class="introduction">
 		<h1 class="pageLabel">Back Office Menu</h1>
 	</div>
 	<div class="Options">
+<<<<<<< HEAD
+		<div class="Ch">
+			<h3 class="queries_title" title="Queries" onclick="goToPage('ListOfQueries.html')">
+=======
 		<div class="Ch"  onclick="goToPage('ListOfQueries.html')">
 			<h3 class="queries_title" title="Queries">
+>>>>>>> 3c47b1534d57c1ab5e9190fd7ce05840c1ab7b10
 				Queries
 			</h3>
 			
 		</div>
+<<<<<<< HEAD
+		<div class="Ch">
+			<h3 class="billpayment_title" title="Bill Payment" onclick="goToPage('ListOfBillPayment.html')">
+				Bill Payment
+			</h3>
+		</div>
+		<div class="Ch">
+			<h3 class="customerrequest_title" title="Customer Requests" onclick="goToPage('ListOfCustomerRequests.html')">
+=======
 		<div class="Ch" onclick="goToPage('ListOfBillPayment.html')">
 			<h3 class="billpayment_title" title="Bill Payment" >
 				Bill Payment
@@ -27,12 +48,18 @@ function goToPage(url) {
 		</div>
 		<div class="Ch" onclick="goToPage('ListOfCustomerRequests.html')">
 			<h3 class="customerrequest_title" title="Customer Requests" >
+>>>>>>> 3c47b1534d57c1ab5e9190fd7ce05840c1ab7b10
 				Customer Requests
 			</h3>
 		</div>
 
+<<<<<<< HEAD
+		<div class="Ch">
+			<h3 class="signout_title" title="Signout" onclick="goToPage('/home/test/ABC_Web/CustomerOne/EmployeeMainMenu.html')">
+=======
 		<div class="Ch"  onclick="goToPage('../CustomerOne/EmployeeMainMenu.html')">
 			<h3 class="signout_title" title="Signout">
+>>>>>>> 3c47b1534d57c1ab5e9190fd7ce05840c1ab7b10
 				Signout
 			</h3>
 		</div>
