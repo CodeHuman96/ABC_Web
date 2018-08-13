@@ -3,8 +3,8 @@
 <body>
 
 <head>
+<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
 <link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
-
 <title>Customer Menu</title>
 </head>
 
