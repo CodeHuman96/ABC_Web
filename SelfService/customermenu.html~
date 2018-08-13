@@ -4,7 +4,6 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
-<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/FormStyle.css">
 </head>
 
 <script>
@@ -13,12 +12,14 @@ function goToPage(url) {
 }
 </script>
 </style>
-
+<ul>
+<li><a href="login.html">Log out</a></li>
+</ul>
 <div class="introduction">
 	<h2>Customer Menu</h2>
 </div>
 <form action="../SelfService/login.html">
-			<button style='float:right'>Log out</button>
+			
 </form>
 <div class="Options">
 		<div class="Ch" onclick="goToPage('ServiceMenu.html')" style="width:200px">
@@ -36,11 +37,7 @@ function goToPage(url) {
 				Bill Payment Service
 			</h3>
 		</div>
-<<<<<<< HEAD
-		<div class="Ch" onclick="goToPage('login.html')" style="width:200px">
-=======
 		<!--<div class="Ch" onclick="goToPage('login.html')" style="width:200px">
->>>>>>> 53ac8904a0176329a6a8b250283385b9eed33357
 			<h3 class="log out" title="logout" >
 				Log Out
 			</h3>
