@@ -12,17 +12,17 @@
 	</div>
 	<div class="Options">
 		<div class="Ch" onclick="cheque()">
-			<h3 class="DeDuplication_title" title="DeDuplication">
-				Request cheque book
+			<h3>
+				Request cheque-book
 			</h3>
 		</div>
 		<div class="Ch" onclick="card()">
-			<h3 class="CustomerSearch" title="CustomerSearch">
+			<h3>
 				Lost/Stolen card
 			</h3>
 		</div>
 		<div class="Ch" onclick="query()">
-			<h3 class="AddNew_title" title="AddNewCustomer" >
+			<h3>
 				Post a query
 			</h3>
 		</div>
