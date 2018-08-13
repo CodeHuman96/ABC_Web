@@ -2,14 +2,14 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="ListOfCustomerRequests.css">
-		<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/PageStyling.css">
-		<link rel="stylesheet" type="text/css" href="/home/test/ABC_Web/CustomerOne/FormStyle.css">
+		<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
+		<link rel="stylesheet" type="text/css" href="../CustomerOne/FormStyle.css">
 		<script type="text/javascript" src="ListOfCustomerRequests.js"></script>	
 	</head>
 <body>
 
 	<div class="introduction">
-		<h1 class="pageLabel">List of Queries<h1>
+		<h1 class="pageLabel">List of Customer Requests<h1>
 	</div>
 	<br>
 	<br>
