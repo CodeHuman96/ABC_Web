@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<title> List of Customer Requests </title>
 	<head>
 		<link rel="stylesheet" type="text/css" href="ListOfCustomerRequests.css">
 		<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
@@ -76,7 +77,7 @@
 			<td>2018-06-21</td>
 			<td>Pending</td>
 		</tr>
-		<tr>
+		<tr onclick="document.location='ChequeBookRequest.html'">
 			<td>Cheque Book</td>
 			<td>123456456</td>
 			<td>Current</td>
@@ -96,7 +97,7 @@
 			<th>Request Date</th>
 			<th>Status</th>
 		</tr>
-		<tr>
+		<tr onclick="document.location='ChequeBookRequest.html'">
 			<td>Cheque Book</td>
 			<td>1234785960</td>
 			<td>Current</td>
@@ -104,7 +105,7 @@
 			<td>2017-12-21</td>
 			<td>Rejected</td>
 		</tr>
-		<tr>
+		<tr onclick="document.location='ChequeBookRequest.html'">
 			<td>Cheque Book</td>
 			<td>1237589643</td>
 			<td>Savings</td>
@@ -153,7 +154,7 @@
 			<th>Request Date</th>
 			<th>Status</th>
 		</tr>
-		<tr onclick="document.location='ChequeBookRequest.html'">
+		<tr onclick="document.location='LostOrStolen.html'">
 			<td>Lost/Stolen Card</td>
 			<td>334578962145</td>
 			<td>Current</td>
@@ -161,7 +162,7 @@
 			<td>2017-05-12</td>
 			<td>Pending</td>
 		</tr>
-		<tr onclick="document.location='ChequeBookRequest.html'">
+		<tr onclick="document.location='LostOrStolen.html'">
 			<td>Lost/Stolen Card</td>
 			<td>456231059874</td>
 			<td>Savings</td>
@@ -181,7 +182,7 @@
 			<th>Request Date</th>
 			<th>Status</th>
 		</tr>
-		<tr onclick="document.location='ChequeBookRequest.html'">
+		<tr onclick="document.location='LostOrStolen.html'">
 			<td>Lost/Stolen Card</td>
 			<td>1230452378</td>
 			<td>Savings</td>
@@ -189,7 +190,7 @@
 			<td>2017-01-21</td>
 			<td>Rejected</td>
 		</tr>
-		<tr onclick="document.location='ChequeBookRequest.html'">
+		<tr onclick="document.location='LostOrStolen.html'">
 			<td>Lost/Stolen Card</td>
 			<td>1231463217</td>
 			<td>Savings</td>
@@ -209,7 +210,7 @@
 			<th>Request Date</th>
 			<th>Status</th>
 		</tr>
-		<tr onclick="document.location='ChequeBookRequest.html'">
+		<tr onclick="document.location='LostOrStolen.html'">
 			<td>Lost/Stolen Card</td>
 			<td>1234412578</td>
 			<td>Current</td>
@@ -217,7 +218,7 @@
 			<td>2018-03-14</td>
 			<td>Processed</td>
 		</tr>
-		<tr onclick="document.location='ChequeBookRequest.html'">
+		<tr onclick="document.location='LostOrStolen.html'">
 			<td>Lost/Stolen Card</td>
 			<td>1237563745</td>
 			<td>Savings</td>
