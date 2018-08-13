@@ -18,9 +18,11 @@ table, th, td {
 <script>
 	function fun1()
 	{
+		
 		if(document.getElementById("1").value=="" || document.getElementById("2").value=="")
 			alert("Fields can't be Empty");
-		document.getElementById("res").innerHTML="Added Successfully";
+		else
+		document.getElementById("res").innerHTML="Updated Successfully";
 		
 	}
 		
@@ -29,7 +31,7 @@ table, th, td {
 
 		
 		<div class="introduction">
-			<h1 class="pageLabel">Add a New Reward</h1>
+			<h1 class="pageLabel">Modify Reward</h1>
 		</div>
 	
 		 
@@ -60,7 +62,7 @@ table, th, td {
 		</table>
 		<br><br><br><br><br>	<p id="res" align='center' style='color:green'> </p><br><br><br> 
 
-		<button style='margin-left:500px;' onclick='fun1()'>Add</button> &ensp;&ensp;&ensp;
+		<button style='margin-left:500px;' onclick='fun1()'>Update</button> &ensp;&ensp;&ensp;
 		 <button onclick="window.open('RewardCatalog.html','_self')">Back</button>  
 
 	

@@ -10,6 +10,10 @@ function goToPage(url) {
 }
 </script>
 <body>
+<ul>
+<li id="log"><a href="../ValueMobilization/Login.html">Logout</a></li>
+<li><a href="../ValueMobilization/Home.html">Home</a></li>
+</ul>
 	<div class="introduction">
 		<h1 class="pageLabel">Options<h1>
 	</div>

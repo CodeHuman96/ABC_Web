@@ -61,6 +61,13 @@ var value = e.options[e.selectedIndex].value;
         { type: 'text' },
     ]
 });
+$('#mytable').jexcel('updateSettings', {
+    table: function (instance, cell, row, val, "mytable") {
+	if (row % 2) {
+            $(cell).css('background-color', '#ffffff');
+        }
+ }
+});
 
 }
 
