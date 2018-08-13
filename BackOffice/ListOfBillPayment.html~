@@ -26,6 +26,11 @@ return alert('Action has been performed!');
 
 
 <body>
+<ul>
+<li><a href='BackOfficeMenu.html'>Back</a></li> 
+<li id="log"><a href="../ValueMobilization/Home.html">Logout</a></li>
+<li><a href="../CustomerOne/EmployeeMainMenu.html">Home</a></li>
+</ul>
 <div class="introduction"><h1 > List of Customer Bill Payment Requests</h1></div>
 <br><br><br>
 <div class="container">
@@ -132,7 +137,7 @@ return alert('Action has been performed!');
 
 <br><br><br>
 <button type="submit" onclick="sub()" >Submit</button>
-<button  align="right"  type="button" onclick="location.href=''">Back </button>
+<!--<button  align="right"  type="button" onclick="location.href='BackOfficeMenu.html'">Back </button>-->
 
 </div>
 </body>

@@ -10,35 +10,38 @@
 <body>
 <ul>
 <li><a href="customermenu.html">Home</a></li>
-<li id ="log"><a href="login.html">Log out</a></li>
+<li id ="log"><a href="../ValueMobilization/Home.html">Log out</a></li>
 </ul>
 <br>
 <div class="introduction">
 <h1>Welcome to Customer Self-Service Main Menu<span style="float:right;font-size:20px"> Welcome Test          </span></h1>
+
 </div>
+
+	
 <div class="Options">
 	
-		<div class="Ch" onclick="profile()">
+		<div class="Ch" onclick="profile()" style="width:200px">
 			<h3 >
 				My Profile
 			</h3>
 		</div>
-		<div class="Ch" onclick="chan()">
+		<div class="Ch" onclick="chan()" style="width:200px">
 			<h3 >
 				Change Password
 			</h3>
 		</div>
-		<div class="Ch" onclick="acc()">
+		<div class="Ch" onclick="acc()" style="width:200px">
 			<h3 >
 				View Statement
 			</h3>
 		</div>
-		<div class="Ch" onclick="mkser()">
+		<div class="Ch" onclick="mkser()" style="width:200px">
 			<h3 >
 				Make a Service Request
 			</h3>
 		</div>
-		<div class="Ch" onclick="viewser()">
+		<div class="Ch" onclick="viewser()" style="width:200px">
 			<h3 >
 				View Request Status
 			</h3>
