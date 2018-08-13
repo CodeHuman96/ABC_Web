@@ -18,7 +18,7 @@ table, th, td {
 <script>
 	function fun1()
 	{
-		document.getElementById("res").innerHTML="Submitted Successfully";
+		document.getElementById("res").innerHTML="Updated Successfully";
 		
 	}
 		
