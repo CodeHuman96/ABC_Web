@@ -8,7 +8,21 @@ table, th, td {
     border: 1px solid black;
      border-collapse: collapse;
 }
+.a
+{
+	 border: 0px;
+     border-collapse: collapse;
+}
 </style>
+
+<script>
+	function fun1()
+	{
+		document.getElementById("res").innerHTML="Added Successfully";
+		
+	}
+		
+</script>
 <body>
 
 		
@@ -23,49 +37,31 @@ table, th, td {
 
 		
 
-		<table align='center'>
-			<tr>
-				 <td>&ensp;Product Description&ensp;</td>
-				<td>&ensp;Points Needed Per Unit&ensp;</td>
-				<th>&ensp;Status&ensp;</th>
+		<table align='center' class="a">
+			<tr class="a">
+				 <td class="a">&ensp;Product Description&ensp;</td>
+				 <td class="a" style="font-weight:bold">:</td>
+				<td class="a">&ensp;<span style="color:red">*</span>&ensp;<input type="text" id="1">&ensp;</td>
+				
 				 
 			</tr>
-			<tr>
-				<td>&ensp;Mobile&ensp;</td>
-				<td>&ensp;1500&ensp;</td>
-				<td>&ensp;Active&ensp;</td>
+			<tr class="a">
+				 <td class="a">&ensp;Points Needed Per Unit&ensp;</td>
+				 <td class="a" style="font-weight:bold">:</td>
+				<td class="a">&ensp;<span style="color:red">*</span>&ensp;<input type="text" id="2">&ensp;</td>
+				
 				 
-		
 			</tr>
-			<tr>
-				<td>&ensp;Pendrive&ensp;</td>
-				<td>&ensp;300&ensp;</td>
-				<td>&ensp;Active&ensp;</td>
-				 
-		
-			</tr>
-			<tr>
-				<td>&ensp;Laptop&ensp;</td>
-				<td>&ensp;4000&ensp;</td>
-				<td>&ensp;Active&ensp;</td>
-				 
-		
-			</tr>
-			<tr>
-				<td>&ensp;Power Bank&ensp;</td>
-				<td>&ensp;350&ensp;</td>
-				<td>&ensp;Active&ensp;</td>
-				 
-		
-			</tr>
-
+			 
 
 	
 		</table>
-		<br><br><br><br><br><br><br><br> 
+		<br><br><br><br><br>	<p id="res" align='center' style='color:green'> </p><br><br><br> 
 
-		<button style='margin-left:500px;' onclick="window.open('add.html','_self')">Add</button> &ensp;&ensp;&ensp;
-		 <button onclick="window.open('update.html','_self')">Update</button>  
+		<button style='margin-left:500px;' onclick='fun1()'>Submit</button> &ensp;&ensp;&ensp;
+		 <button onclick="window.open('RewardCatalog.html','_self')">Back</button>  
+
+	
 		</div>
 
 		
