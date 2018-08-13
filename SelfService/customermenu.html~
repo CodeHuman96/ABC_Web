@@ -16,9 +16,22 @@ function goToPage(url) {
 </style>
 
 <ul>
+<<<<<<< HEAD
  
 <li id ="log"><a href="../ValueMobilization/Home.html">Log out</a></li>
  
+=======
+<<<<<<< HEAD
+<li id ="log"><a href="../ValueMobilization/Home.html">Log out</a></li>
+=======
+<<<<<<< HEAD
+
+<li id="log"><a href="/home/test/ABC_Web/ValueMobilization/Home.html">Log out</a></li>
+=======
+<<<<<<< HEAD
+<li id ="log"><a href="../ValueMobilization/Home.html">Log out</a></li>
+=======
+>>>>>>> 0ef08c5c69b466c88c81eeb773cb687f07f1090c
 <<<<<<< HEAD
 <li id="log"><a href="login.html">Log out</a></li>
 =======
