@@ -6,6 +6,13 @@
 <link rel="stylesheet" type="text/css" href="FormStyle.css">
 </head>
 <body>
+<ul>
+<li><a href="../CustomerOne/CustomerOneMain.html">Back</a></li> 
+<li  id="log"><a href="../ValueMobilization/Home.html">Logout</a></li>
+<li><a href="../CustomerOne/EmployeeMainMenu.html">Home</a></li>
+</ul>
+<br>
+
 <div class="introduction">
 	<h2>Data De-Duplication</h2>
 </div>
@@ -101,7 +108,7 @@
 		</tr>
 		
 		
-</table>
+</table><br>
  <input type="submit" value="DeDuplicate" >
 		
 </form>

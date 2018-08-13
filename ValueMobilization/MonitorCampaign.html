@@ -12,6 +12,7 @@ function tableDisplay() {
     var x0=document.getElementById(0);
     var x1=document.getElementById(1);
     var x2=document.getElementById(2);
+    var x3=document.getElementById("form1");
 
     var y = document.getElementById("camp").selectedIndex;
     var x = document.getElementById(y);
@@ -19,6 +20,7 @@ function tableDisplay() {
     x0.style.display = "none"
     x1.style.display = "none"
     x2.style.display = "none"
+    x3.style.display = "block";
     x.style.display = "table";
 }
 </script>
@@ -43,8 +45,8 @@ table, th, td {
 
 <ul>
 <li><a href="CampaignManagement.html">Back</a></li> 
-<li><a href="Login.html">Logout</a></li>
-<li><a href="Home.html">Home</a></li>
+<li id="log"><a href="Home.html">Logout</a></li>
+<li><a href="../CustomerOne/EmployeeMainMenu.html">Home</a></li>
 </ul>
 
 <br>
@@ -54,17 +56,15 @@ table, th, td {
 <form class="container">
 Campaign:
 <select name="campaign" id="camp">
-<option value="C1">C1</option>
-<option value="C2">C2</option>
-<option value="C3">C3</option>
+<option value="C1">Campaign1</option>
+<option value="C2">Campaign2</option>
+<option value="C3">Campaign3</option>
 </select>
 </form>
 <button onclick="tableDisplay()">Search</button>
 
-
 <br><br><br>
-<br><br><br>
-<form class="container">
+<form class="container" style="display:none " id="form1">
 <span>Total Prospects:</span>
 <span>3</span>
 <br><br>
@@ -99,8 +99,8 @@ Campaign:
 <tr>
 <td>Agent1</td>
 <td>Anshuman</td>
-<td>Inactive</td>
-<td>Not Committed</td>
+<td>Active</td>
+<td>Committed</td>
 </tr>
 
 </table>
@@ -116,23 +116,23 @@ Campaign:
 
 <tr>
 <td>Agent2</td>
-<td>Sampada</td>
+<td>Viraja</td>
 <td>Active</td>
 <td>Committed</td>
 </tr>
 
 <tr>
 <td>Agent2</td>
-<td>Karhtiga</td>
-<td>Active</td>
-<td>Committed</td>
-</tr>
-
-<tr>
-<td>Agent2</td>
-<td>Anshuman</td>
+<td>Sashi</td>
 <td>Inactive</td>
 <td>Not Committed</td>
+</tr>
+
+<tr>
+<td>Agent2</td>
+<td>Saranya</td>
+<td>Active</td>
+<td>Committed</td>
 </tr>
 
 </table>
@@ -149,7 +149,7 @@ Campaign:
 
 <tr>
 <td>Agent3</td>
-<td>Sampada</td>
+<td>Shiva Sai</td>
 <td>Active</td>
 <td>Committed</td>
 </tr>
@@ -163,9 +163,9 @@ Campaign:
 
 <tr>
 <td>Agent3</td>
-<td>Anshuman</td>
-<td>Inactive</td>
-<td>Not Committed</td>
+<td>Nischala</td>
+<td>Active</td>
+<td>Committed</td>
 </tr>
 
 </table>

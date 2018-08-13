@@ -10,11 +10,17 @@
 <title>Search Customer</title>
 </head>
 <body>
+<ul>
+<li><a href="../CustomerOne/CustomerOneMain.html">Back</a></li> 
+<li  id="log"><a href="../ValueMobilization/Home.html">Logout</a></li>
+<li><a href="../CustomerOne/EmployeeMainMenu.html">Home</a></li>
+</ul>
+<br>
 	<div class="introduction">
 		<h2>Customer Search</h2>
 	</div>
 <div class="container">
-  <form  action="toDo.html">
+  <form  action="ListCustomers.html">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" placeholder="Name.." >
 	<label for="customerID">Customer ID</label>

@@ -9,10 +9,6 @@
 <title>AccountStatement</title>
 </head>
 <body>
-<ul>
-<li id ="log"><a href="../ValueMobilization/Home.html">Log out</a></li>
-</ul>
-<br>
 <div class="introduction">
 <h1>Account Statement <span style="float:right;font-size:20px"> Welcome xxxxxx </span></h1>
 </div>

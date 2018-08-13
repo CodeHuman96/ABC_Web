@@ -10,6 +10,11 @@ function goToPage(url) {
 }
 </script>
 <body>
+<ul>
+<li  id="log"><a href="../ValueMobilization/Home.html">Logout</a></li>
+<li><a href="../CustomerOne/EmployeeMainMenu.html">Home</a></li>
+</ul>
+<br>
 	<div class="introduction">
 		<h1 class="pageLabel">Welcome to Customer One Main Menu<h1>
 	</div>

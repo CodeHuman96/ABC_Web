@@ -3,6 +3,7 @@
 <head>
 <link rel="stylesheet" href="PageStyling.css">
 <link rel="stylesheet" href="FormStyle.css">
+<link rel="stylesheet" type="text/css" href="../CustomerOne/PageStyling.css">
 <style>
  .a {
      border:none;
@@ -23,6 +24,10 @@ table,tr,td,th
 </script>
 
 <body>
+<ul>
+<li><a href="../SelfService/customermenu.html">Home</a></li> 
+<li id="log"><a href="../ValueMobilization/Home.html">Logout</a></li>
+</ul>
 		<div class="introduction">
 			<h1 class="pageLabel">View Request Status</h1>
 		</div>
@@ -34,7 +39,7 @@ table,tr,td,th
 		 <tr class="a">
 			<td class="a">&ensp;Name&ensp;</td>
 			<td class="a">&ensp;:&ensp;</td>
-			<td class="a"colspan=2>&ensp;xxxxxxxxxxxxxx&ensp;</td>
+			<td class="a"colspan=2>&ensp;Test&ensp;</td>
 		</tr>
 		<tr class="a">  
 			<td class="a">&ensp;Request Type&ensp;</td>
@@ -78,10 +83,12 @@ table,tr,td,th
 
 
 	
-		</table></div>
+		</table>
 		<br><br><br><br><br><br><br><br> 
 
-		 <form action="SelfServiceMenu.html" style='margin-left:600px;'><button>Back</button></form> 
+		 <form action="SelfServiceMenu.html" style='margin-left:600px;'><button>Back</button></form>
+	
+		</div> 
 
 		
 
