@@ -9,8 +9,19 @@
 <title>AccountStatement</title>
 </head>
 <body>
+<<<<<<< HEAD
+  <ul>
+  <li><a href="customermenu.html">Home</a></li>
+<li id ="log"><a href="../ValueMobilization/Home.html">Log out</a></li>
+</ul>
+=======
+<ul>
+<li id ="log"><a href="../ValueMobilization/Home.html">Log out</a></li>
+</ul>
+<br>
+>>>>>>> c13f71d30adb935ec71ef75fb593bdc65ee8e06d
 <div class="introduction">
-<h1>Account Statement <span style="float:right;font-size:20px"> Welcome xxxxxx </span></h1>
+<h1>Account Statement <span style="float:right;font-size:20px"> Welcome Test </span></h1>
 </div>
 
 <div class="container">
