@@ -74,22 +74,14 @@ background-size: cover;
 	table-layout: auto;
 
 }
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 44fa156bcfe09c11902a11e5a179e171c68423ee
 .tabular td, .tabular th {
     border: 0px solid #ddd;
     padding: 8px;
 	 
     
 }
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 44fa156bcfe09c11902a11e5a179e171c68423ee
 .tabular tr:nth-child(even){	
 	background-color: #f2f2f2;
 }
