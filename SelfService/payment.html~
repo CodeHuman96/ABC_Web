@@ -24,7 +24,7 @@ input[type=reset],input[type=button] {
 </style>
 
 <div class="introduction">
-<h3>Make Payment</h3>
+	<h2>Make Payment</h2>
 </div>
 
 <div class="container">
