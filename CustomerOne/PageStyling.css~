@@ -43,7 +43,11 @@ body {
 	
 background-image: url("../Pictures/BackGround1.png");
 background-size: cover;
+<<<<<<< HEAD
+    background-position: 0% 5%;
+=======
     background-position: 0% 15%;
+>>>>>>> 46f0acd39ee2a37510c83cdeafca9f836e1ff46f
 	   background-color: #cccccc;
 	 background-repeat: no-repeat;
 	
