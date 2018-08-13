@@ -18,6 +18,10 @@ function addsuccess()
 {
 	window.alert("biller added successfully");
 }
+function updatesuccess()
+{
+	window.alert("biller updated successfully");
+}
 function paysuccess()
 {
 	window.alert("Payment request successful");

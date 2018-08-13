@@ -19,6 +19,16 @@ button{
     cursor: pointer;
 }
 
+button.update{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:10px;
+}
+
 button.back{
     background-color: #4CAF50;
     color: white;
@@ -44,25 +54,25 @@ button.back{
 <div class="container">
 <table class="tabular" style="width:100%">
   <tr>
-<!--    <th>Select</th>-->
+    <th>Select</th>
     <th>Biller Name</th>
     <th>Address</th>
     <th>Category</th>
   </tr>
     <tr>
-    <!--<td><input type="radio" name="sel" id="chk"/></td>-->
+    <td><input type="radio" name="sel" id="chk"/></td>
     <td>Viraja koganti</td>
     <td>Tirupati</td>
     <td>public</td>
   </tr>
   <tr>
-<!--    <td><input type="radio" name="sel" id="chk"/></td>-->
+    <td><input type="radio" name="sel" id="chk"/></td>
     <td>Saranya k</td>
     <td>vellore</td>
     <td>public</td>
   </tr>
   <tr>
-<!--    <td><input type="radio" name="sel" id="chk"/></td>-->
+    <td><input type="radio" name="sel" id="chk"/></td>
     <td>Shiva</td>
     <td>Chennai</td>
     <td>public</td>
@@ -70,6 +80,7 @@ button.back{
 </table> 
 <br><br>
 <input type="button" class="add"  value="Add" type="button" onclick="add()">
+<input type="button" class="update"  value="Update" type="button" onclick="update()">
 <button class="back" type="button" onclick="back()"> Back</button>
 </div>
 
