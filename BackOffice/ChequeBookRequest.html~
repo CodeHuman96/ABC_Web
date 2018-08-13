@@ -76,12 +76,12 @@ Response Area:
 <br></br>
 
 
-<!--<button  type="submit" onclick="warn()" >Submit</button> -->
+
 
 <input  type="submit" value="Submit"> 
 
 <input type="reset">
-<button type="button" onclick="location.href='ListOfCustomerRequests.html'">Back </button>
+<!--<button type="button" onclick="location.href='ListOfCustomerRequests.html'">Back </button>-->
 </div>
 </fieldset>
 </form>
